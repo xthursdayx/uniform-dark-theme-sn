@@ -1,5 +1,5 @@
 :root {
-  --sn-stylekit-base-font-size: 18px;
+  --sn-stylekit-base-font-size: 16px;
 
   --sn-stylekit-font-size-p: 1.0rem;
   --sn-stylekit-font-size-editor: 1.21rem;
@@ -27,9 +27,9 @@
   --sn-stylekit-danger-contrast-color: white;
 
   --sn-stylekit-shadow-color: #C8C8C8;
-  --sn-stylekit-background-color: white;
+  --sn-stylekit-background-color: #1e1e1e;
   --sn-stylekit-border-color: #e3e3e3;
-  --sn-stylekit-foreground-color: black;
+  --sn-stylekit-foreground-color: #d4d4d4;
 
   --sn-stylekit-contrast-background-color: #F6F6F6;
   --sn-stylekit-contrast-foreground-color: #2e2e2e;
