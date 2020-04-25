@@ -74,6 +74,7 @@
   background-color: #424242;
 }
 
-:root ::selection {
+/* selection */
+:root .editor-content, #editor-content ::selection {
   background-color: var(--sn-stylekit-info-color) !important;
 }
