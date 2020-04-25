@@ -41,7 +41,7 @@
 
   --sn-stylekit-secondary-contrast-background-color: var(--sn-stylekit-background-color);
   --sn-stylekit-secondary-contrast-foreground-color: var(--sn-stylekit-foreground-color);
-  --sn-styleki--secondary-contrast-border-color: var(--sn-stylekit-background-color);
+  --sn-stylekit-secondary-contrast-border-color: var(--sn-stylekit-background-color);
 
   --sn-stylekit-editor-background-color: var(--sn-stylekit-background-color);
   --sn-stylekit-editor-foreground-color: var(--sn-stylekit-foreground-color);
