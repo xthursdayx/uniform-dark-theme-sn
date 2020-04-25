@@ -62,3 +62,8 @@
     "Ubuntu", "Cantarell", "Fira Sans",
     "Droid Sans", "Helvetica Neue", sans-serif;
 }
+
+#notes-column, .notes {
+  border-left: 0px solid var(--sn-stylekit-border-color);
+  border-right: 0px solid var(--sn-stylekit-border-color);
+}
