@@ -68,6 +68,6 @@
   border-right: 0px solid var(--sn-stylekit-border-color) !important;
 }
 
-:root h1 {
+:root #note-text-editor, h1 {
   font-size: var(--sn-stylekit-font-size-h1) !important;
 }
