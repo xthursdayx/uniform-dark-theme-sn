@@ -72,30 +72,6 @@
   background-color: var(--sn-stylekit-info-color) !important;
 }
 
-h1, .cm-header-1
-{
-  font-size: var(--h1-font-size) !important;
-  color: var(--h1-font-color) !important;
-}
-
-h2, .cm-header-2
-{
-  font-size: var(--h2-font-size) !important;
-  color: var(--h2-font-color) !important;
-}
-
-h3, .cm-header-3
-{
-  font-size: var(--h3-font-size) !important;
-  color: var(--h3-font-color) !important;
-}
-
-h4, .cm-header-4
-{
-  font-size: var(--h4-font-size) !important;
-  color: var(--h4-font-color) !important;
-}
-
 .CodeMirror > a {
   color: var(--tags-link-font-color) !important;
 }
