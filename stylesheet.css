@@ -41,3 +41,14 @@
 .CodeMirror .cm-header {
   line-height: 1.5em !important; /* extra space above and below headers */
 }
+
+/* notes-column */
+#notes-column {
+  border-left: none !important;
+  border-right: none !important;
+}
+/* borders */
+/* :root #notes-column, .notes {
+  border-left: 0px solid var(--sn-stylekit-border-color) !important;
+  border-right: 0px solid var(--sn-stylekit-border-color) !important;
+} */

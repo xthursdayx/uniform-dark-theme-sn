@@ -67,12 +67,6 @@
     "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
-/* borders */
-:root #notes-column, .notes {
-  border-left: 0px solid var(--sn-stylekit-border-color) !important;
-  border-right: 0px solid var(--sn-stylekit-border-color) !important;
-}
-
 /* notes */
 :root #notes-column .note.selected, .notes .note.selected {
   background-color: #424242;
