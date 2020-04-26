@@ -1,2 +1,12 @@
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+
+/* base settings */
+:root {
+  --sn-stylekit-font-family: 'Fira Code', monospace; /*includes ligatures*/
+}
+
+/* content */
+.CodeMirror {
+  font-family: var(--sn-stylekit-font-family) !important;
+}
