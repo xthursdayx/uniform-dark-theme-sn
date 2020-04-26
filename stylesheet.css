@@ -10,6 +10,9 @@
 .editor-content .editable {
   font-family: var(--sn-stylekit-font-family) !important;
   font-size: 18px !important;
+}
+
+.editor-content .editable h1 {
   padding-top: 50px !important;
 }
 
