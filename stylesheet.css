@@ -26,7 +26,10 @@
   --sn-stylekit-secondary-contrast-foreground-color: var(--sn-stylekit-foreground-color);
 
   /* shadow */
-  --sn-stylekit-shadow-color: red;
+  --sn-stylekit-shadow-color: black;
+
+  /* borders */
+  --sn-stylekit-border-color: #424242;
 
 }
 
