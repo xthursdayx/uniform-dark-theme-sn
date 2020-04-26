@@ -6,7 +6,7 @@
   --sn-stylekit-font-family: 'Fira Code', monospace; /*includes ligatures*/
 }
 
-.editor-content {
+.editor-content .editable {
   font-family: var(--sn-stylekit-font-family) !important;
 }
 
