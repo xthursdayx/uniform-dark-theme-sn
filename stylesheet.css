@@ -34,6 +34,9 @@
   --sn-stylekit-contrast-border-color: var(--sn-stylekit-border-color);
   --sn-stylekit-secondary-contrast-border-color: var(--sn-stylekit-border-color);
 
+  /* scrollbar */
+  --sn-stylekit-scrollbar-thumb-color: red;
+
 }
 
 /* editor */
