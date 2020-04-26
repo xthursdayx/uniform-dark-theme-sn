@@ -1,659 +1,105 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300');
-@import url('https://fonts.googleapis.com/css?family=Inconsolata');
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
 
-:root
-{
-  /* FONTS */
-  --overall-font-family: 'Roboto';
-  --overall-font-size: 14px;
-  --overall-font-color: #cccccc;
+:root {
+  --sn-stylekit-base-font-size: 15px;
+  --sn-stylekit-font-family: 'Fira Code', monospace; /*includes ligatures*/
+  --sn-stylekit-font-size-p: 1.0rem;
+  --sn-stylekit-font-size-editor: 1.21rem;
 
-  /* Header fonts */
-  --h1-font-size: 32px;
-  --h1-font-color: #cccccc;
-  --h2-font-size: 26px;
-  --h2-font-color: #cccccc;
-  --h3-font-size: 22px;
-  --h3-font-color: #cccccc;
-  --h4-font-size: 18px;
-  --h4-font-color: #cccccc;
+    /* Header fonts */
+    --h1-font-size: 32px;
+    --h1-font-color: #569CD6;
+    --h2-font-size: 26px;
+    --h2-font-color: #569CD6;
+    --h3-font-size: 22px;
+    --h3-font-color: #569CD6;
+    --h4-font-size: 18px;
+    --h4-font-color: #569CD6;
 
-  /* SECTION DIVIDER (Sort, Menu and Editor) */
-  --section-tag-bg-color: #121212;
-  --section-tag-border-size: 1px;
-  --section-tag-border-color: #000000;
-  --section-tag-font-size: 10px;
-  --sectiont-tag-font-color: #cccccc; /* Color for dropdown menu font */
-  --section-tag-text-transform: capitalize;
+      /* Tags links (rename and delete) */
+  --tags-link-font-color: #569CD6;
 
-  --section-bg-color: #080808;
-  --section-border-size: 1px;
-  --section-border-color: #000000;
-  --section-font-size: 10px;
-  --section-font-color: #cccccc; /* Color for dropdown menu font */
-  --section-text-transform: capitalize;
+  --sn-stylekit-font-size-h6: 0.8rem;
+  --sn-stylekit-font-size-h5: 0.9rem;
+  --sn-stylekit-font-size-h4: 1.0rem;
+  --sn-stylekit-font-size-h3: 1.1rem;
+  --sn-stylekit-font-size-h2: 1.2rem;
+  --sn-stylekit-font-size-h1: 1.3rem;
 
-  /* Dropdown-menu */
-  --dropmenu-head-bg-color: #080808;
-  --dropmenu-bg-color: #121212;
-  --dropmenu-font-color: #cccccc;
-  --dropmenu-font-li-color: #f1f1f1;
-  --dropmenu-li-hover-color: #040404;
-  --dropmenu-font-editors-color: black;
+  --sn-stylekit-neutral-color: #989898;
+  --sn-stylekit-neutral-contrast-color: white;
 
-  /* Dropdown menu OPEN for extensions */
-  --dropmenu-editor-head-bg-color: #121212;
-  --dropmenu-editor-head-border-size: 1px;
-  --dropmenu-editor-head-border-color: #080808;
-  --dropmenu-editor-head-font-color: #cccccc;
+  --sn-stylekit-info-color: #264f78;
+  --sn-stylekit-info-contrast-color: white;
 
-  --dropmenu-editor-ul-bg-color: #101010;
-  --dropmenu-editor-ul-hover-bg-color: #020202;
-  --dropmenu-editor-ul-border-size: 1px;
-  --dropmenu-editor-ul-border-color: black;
-  --dropmenu-editor-ul-font-color: #f1f1f1;
-  --dropmenu-editor-ul-a-font-color: #f1f1f1;
+  --sn-stylekit-success-color: #2B9612;
+  --sn-stylekit-success-contrast-color: white;
 
-  --dropmenu-editor-footer-bg-color: #121212;
-  --dropmenu-editor-footer-border-size: 1px;
-  --dropmenu-editor-footer-border-color: #080808;
+  --sn-stylekit-warning-color: #f6a200;
+  --sn-stylekit-warning-contrast-color: white;
 
-  /* PANEL (Account, Extensions, the boxes that open, not the footer) */
-  --panel-bg-color: #121212;
-  --panel-font-color: #fafafa;
+  --sn-stylekit-danger-color: #F80324;
+  --sn-stylekit-danger-contrast-color: white;
 
-  /* Extensions background, the box */
-  --whitebg-bg-color: #080808;
-  --whitebg-font-color: #fafafa;
-  --whitebg-border-size: 2px;
-  --whitebg-border-color: #000000;
-  --whitebg-h1-a-size: 14px;
-  --whitebg-h1-a-color: #cccccc;
+  --sn-stylekit-shadow-color: #C8C8C8;
+  --sn-stylekit-background-color: #1e1e1e;
+  --sn-stylekit-border-color: #1e1e1e;
+  --sn-stylekit-foreground-color: #d4d4d4;
 
-  /* FOOTER */
-  --footer-bg-color: #080808;
-  --footer-a-font-color: #ccc;
+  --sn-stylekit-contrast-background-color: var(--sn-stylekit-background-color);
+  --sn-stylekit-contrast-foreground-color: var(--sn-stylekit-foreground-color);
+  --sn-stylekit-contrast-border-color: var(--sn-stylekit-border-color);
 
-  /* FORMS */
-  --form-bg-color: #000000;
-  --form-border-size: 0px;
-  --form-border-color: #121212;
+  --sn-stylekit-secondary-background-color: var(--sn-stylekit-background-color);
+  --sn-stylekit-secondary-foreground-color: var(--sn-stylekit-foreground-color);
+  --sn-stylekit-secondary-border-color: var(--sn-stylekit-border-color);
 
-  /* TAGS */
-  /* Title box (the one at the top) */
-  --tags-title-bg-color: #171717;
-  --tags-title-border-size: 30px;
-  --tags-title-font-size: 18px;
-  --tags-title-font-weight: normal;
-  --tags-title-font-color: #d9d9d9;
-  --tags-title-text-transform: uppercase;
+  --sn-stylekit-secondary-contrast-background-color: var(--sn-stylekit-background-color);
+  --sn-stylekit-secondary-contrast-foreground-color: var(--sn-stylekit-foreground-color);
+  --sn-stylekit-secondary-contrast-border-color: var(--sn-stylekit-border-color);
 
-  /* Tags add button */
-  --tags-addBtn-bg-color: #080808;
-  --tags-addBtnHover-bg-color: #000000;
-  --tags-addBtn-height: 35px;
-  --tags-addBtn-width: 35px;
-  --tags-addBtn-margin-top: -8px;
-  --tags-addBtn-border-radius: 50%;
-  --tags-addBtn-font-size: 28px;
+  --sn-stylekit-editor-background-color: var(--sn-stylekit-background-color);
+  --sn-stylekit-editor-foreground-color: var(--sn-stylekit-foreground-color);
 
-  /* Tags area */
-  --tags-bg-color: #171717;
-  --tags-padding-size: 10px 5px 5px 10px;
-  --tags-font-size: 12px;
-  --tags-font-color: #a6a6a6;
-  --tags-font-style: normal;
+  --sn-stylekit-paragraph-text-color: #454545;
 
-  /* Selected tag */
-  --tags-sel-bg-color: #020202;
-  --tags-sel-font-size: 12px;
+  --sn-stylekit-input-placeholder-color: rgb(168, 168, 168);
+  --sn-stylekit-input-border-color: var(--sn-stylekit-border-color);
 
-  /* Tags links (rename and delete) */
-  --tags-link-font-size: 10px;
-  --tags-link-font-color: gray;
-  --tags-link-font-style: normal;
+  --sn-stylekit-scrollbar-thumb-color: #dfdfdf;
+  --sn-stylekit-scrollbar-track-border-color: #E7E7E7;
 
-  /* NOTES */
-  /* Title box (the one at the top) */
-  --notes-title-bg-color: #0f0f0f;
-  --notes-title-font-size: 18px;
-  --notes-title-font-color: #cccccc;
-  --notes-title-text-transform: uppercase;
+  --sn-stylekit-general-border-radius: 2px;
 
-  /* Notes add button */
-  --notes-addBtn-bg-color: #080808;
-  --notes-addBtnHover-bg-color: #000000;
-  --notes-addBtn-height: 35px;
-  --notes-addBtn-width: 35px;
-  --notes-addBtn-margin-top: -6px;
-  --notes-addBtn-border-radius: 50%;
-  --notes-addBtn-font-size: 28px;
-
-  /* Notes filter */
-  --notes-filter-bg-color: #000000;
-  --notes-filter-font-size: 18px;
-  --notes-filter-text-transform: capitalize;
-
-  /* Notes area */
-  --notes-bg-color: #0f0f0f;
-  --notes-sideborder-size: 0px;
-  --notes-sideborder-color: #0f0f0f;
-
-  /* Notes */
-  --notes-note-bg-color: #151515;
-  --notes-note-border-bottom-size: 1px;
-  --notes-note-border-bottom-color: #0a0a0a;
-  --notes-note-headline-font-size: 14px;
-  --notes-note-headline-font-color: #737373;
-  --notes-note-preview-font-size: 12px;
-  --notes-note-preview-font-color: #737373;
-  --notes-note-date-font-size: 10px;
-  --notes-note-date-font-color: #737373;
-
-  /* Selected Note */
-  --notes-sel-bg-color: #080808;
-  --notes-sel-borderleft-size: 3px;
-  --notes-sel-borderleft-color: #000000;
-  --notes-sel-headline-font-color: #f2f2f2;
-
-  /* EDITOR */
-  /* Titlebox */
-  --editor-title-bg-color: #080808;
-  --editor-title-padding-top: 10px;
-  --editor-title-headline-font-color: #cccccc;
-  --editor-title-headline-font-size: 24px;
-  --editor-title-headline-font-weight: normal;
-  --editor-title-tag-font-color: #5e5e5e;
-  --editor-title-tag-font-size: 14px;
-  --editor-title-tag-font-weight: normal;
-
-  /* Editor */
-  --editor-bg-color: #080808;
-  --editor-active-bg-color: #060606;
-  --editor-toolbar-bg-color: #080808;
-  --editor-toolbar-borderbottom-size: 1px;
-  --editor-toolbar-borderbottom-color: #000000;
-  --editor-toolbar-seperator-size: 1px;
-  --editor-toolbar-seperator-left-color: #ccc;
-  --editor-toolbar-seperator-right-color: #ccc;
-  --editor-toolbar-btn-border: 0px;
-  --editor-toolbar-btn-borderradius: 5px;
-  --editor-toolbar-a-bg-color: #080808;
-  --editor-toolbar-a-hover-bg-color: #020202;
-  --editor-toolbar-a-font-color: #cccccc;
-  /* Styles for text in-editor and active window */
-  --editor-code-bg-color: #101010;
-  --editor-link-font-color: #cccccc;
-  --editor-table-border-color: #171717;
-  --editor-table-collapse: collapse;
-  --editor-table-padding: 8px;
-  --editor-table-header-bg-color: #232323;
-  --editor-table-even-bg-color: #121212;
-  --editor-table-odd-bg-color: #171717;
+  --sn-stylekit-monospace-font: "Ubuntu Mono", courier, monospace;
+  --sn-stylekit-sans-serif-font: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
-body, p, ul, li, ol
-{
-    font-family: var(--overall-font-family) !important;
-    font-size: var(--overall-font-size) !important;
-    color: var(--overall-font-color) !important;
+/* borders */
+:root #notes-column, .notes {
+  border-left: 0px solid var(--sn-stylekit-border-color) !important;
+  border-right: 0px solid var(--sn-stylekit-border-color) !important;
 }
 
-code
-{
-  font-family: var(--overall-font-family) !important;
-  font-size: var(--overall-font-size) !important;
-  color: var(--overall-font-color) !important;
+/* notes */
+:root #notes-column .note.selected, .notes .note.selected {
+  background-color: #424242;
 }
 
-table, th, td
-{
-  border: 1px solid var(--editor-table-border-color) !important;
-  border-collapse: var(--editor-table-collapse) !important;
+/* selection */
+:root .editor-content, #editor-content ::selection {
+  background-color: var(--sn-stylekit-info-color) !important;
 }
 
-::-webkit-scrollbar
-{
-    width: 8px !important;
+/* content */
+.CodeMirror {
+  font-family: var(--sn-stylekit-font-family) !important;
 }
-
-/* Track */
-::-webkit-scrollbar-track
-{
-    -webkit-box-shadow: inset 0 0 6px transparent !important;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb
-{
-    background: #121212 !important;
-    -webkit-box-shadow: inset 0 0 4px transparent !important;
-}
-
-/* Sort, Menu, Editor */
-/* Editor selection menu */
-#tag-menu-bar.section-menu-bar
-{
-  background-color: var(--section-tag-bg-color) !important;
-  color: var(--section-tag-font-color) !important;
-  border-top: var(--section-tag-border-size) solid var(--section-tag-border-color) !important;
-  border-bottom: var(--section-tag-border-size) solid var(--section-tag-border-color) !important;
-  text-transform: capitalize !important;
-}
-
-.section-menu-bar
-{
-  background-color: var(--section-bg-color) !important;
-  color: var(--section-font-color) !important;
-  border-top: var(--section-border-size) solid var(--section-border-color) !important;
-  border-bottom: var(--section-border-size) solid var(--section-border-color) !important;
-}
-
-.section-menu-bar li:hover
-{
-  background-color: var(--dropmenu-editor-ul-hover-bg-color) !important;
-  color: var(--section-font-color) !important;
-}
-
-.section-menu-bar li:selected
-{
-  background-color: var(--dropmenu-editor-ul-hover-bg-color) !important;
-  color: var(--section-font-color) !important;
-}
-
-.sectioned-menu .header
-{
-  background-color: var(--dropmenu-head-bg-color) !important;
-  border-bottom: var(--section-border-size) solid var(--section-border-color) !important;
-  font-size: var(--section-font-size) !important;
-  color: var(--dropmenu-font-color) !important;
-}
-
-.dropdown-menu
-{
-  background-color: var(--dropmenu-editor-ul-bg-color) !important;
-  border-bottom: var(--dropmenu-editor-ul-border-size) solid var(--dropmenu-editor-ul-border-color) !important;
-  color: var(--dropmenu-editor-ul-font-color);
-}
-
-.menu-item
-{
-  background-color: var(--dropmenu-editor-ul-bg-color) !important;
-  border-bottom: var(--dropmenu-editor-ul-border-size) solid var(--dropmenu-editor-ul-border-color) !important;
-  color: var(--dropmenu-editor-ul-font-color);
-}
-
-.menu-item:hover
-{
-  background-color: var(--dropmenu-editor-ul-hover-bg-color) !important;
-}
-
-.dropdown-menu label
-{
-  color: var(--dropmenu-editor-ul-font-color) !important;
-}
-
-.sectioned-menu .footer
-{
-  background-color: var(--dropmenu-editor-footer-bg-color) !important;
-  border-top: var(--dropmenu-editor-footer-border-size) solid var(--dropmenu-editor-footer-border-color) !important;
-  border-bottom: var(--dropmenu-editor-footer-border-size) solid var(--dropmenu-editor-footer-border-color) !important;
-}
-
-.block .blue /* Link to more editors */
-{
-  color: var(--dropmenu-font-editors-color) !important;
-}
-
-/* ACCUNT and EXTENSIONS background */
-.panel
-{
-  background-color: var(--panel-bg-color) !important;
-  color: var(--panel-font-color) !important;
-}
-
-/* Extensions background, the box */
-.white-bg
-{
-  background-color: var(--whitebg-bg-color) !important;
-  color: var(--whitebg-font-color) !important;
-  border: var(--whitebg-border-size) solid var(--whitebg-border-color) !important;
-}
-
-.white-bg a, .white-bg h1
-{
-  font-size: var(--whitebg-h1-a-size) !important;
-  color: var(--whitebg-h1-a-color) !important;
-}
-
-/* WHAT IS THIS????? IS THIS PLAIN TEXT???? */
-.gray-bg
-{
-  background-color: #121212 !important;
-  color: var(--graybg-font-color) !important;
-  border: var(--graybg-border-size) solid var(graybg-border-color) !important;
-}
-
-/* FOOTER */
-
-#footer-bar
-{
-  background-color: var(--footer-bg-color) !important;
-}
-
-#footer-bar a
-{
-  color: var(--footer-a-font-color) !important;
-}
-
-/* UI */
-
-.form-control
-{
-  background-color: var(--form-bg-color) !important;
-  border: var(--form-border-size) solid var(--form-border-color) !important;
-}
-
-/* TAGS */
-.app .tags .content
-{
-  background-color: var(--tags-bg-color) !important;
-}
-
-#tags-title-bar
-{
-  background-color: var(--tags-title-bg-color) !important;
-  border-bottom: var(--tags-title-border-size) solid var(--tags-title-bg-color) !important;
-  font-size: var(--tags-title-font-size) !important;
-  font-weight: var(--tags-title-font-weight) !important;
-  color: var(--tags-title-font-color) !important;
-  text-transform: var(--tags-title-text-transform) !important;
-}
-
-#tags-title-bar .add-button
-{
-  background-color: var(--tags-addBtn-bg-color) !important;
-  height: var(--tags-addBtn-height) !important;
-  width: var(--tags-addBtn-width) !important;
-  margin-top: var(--tags-addBtn-margin-top) !important;
-  border-radius: var(--tags-addBtn-border-radius) !important;
-  font-size: var(--tags-addBtn-font-size) !important;
-}
-
-#tags-title-bar .add-button:hover
-{
-  background-color: var(--tags-addBtnHover-bg-color) !important;
-  height: var(--tags-addBtn-height) !important;
-  width: var(--tags-addBtn-width) !important;
-  margin-top: var(--tags-addBtn-margin-top) !important;
-  border-radius: var(--tags-addBtn-border-radius) !important;
-  font-size: var(--tags-addBtn-font-size) !important;
-  -webkit-transition: all ease-in-out 0.15s !important;
-  transition: all ease-in-out 0.15s !important;
-}
-
-.tags .tag
-{
-  padding: var(--tags-padding-size) !important;
-}
-
-.tags .tag > .info > .title
-{
-  font-size: var(--tags-font-size) !important;
-  color: var(--tags-font-color) !important;
-  font-style: var(--tags-font-style) !important;
-}
-
-.tags .tag > .info > .count
-{
-  font-size: var(--tags-font-size) !important;
-  color: var(--tags-font-color) !important;
-  font-style: var(--tags-font-style) !important;
-}
-
-.tags .tag > .menu a
-{
-  font-size: var(--tags-link-font-size) !important;
-  color: var(--tags-link-font-color) !important;
-  font-style: var(--tags-link-font-style) !important;
-}
-
-.tags .tag.selected
-{
-  background-color: var(--tags-sel-bg-color) !important;
-  padding: var(--tags-padding-size) !important;
-}
-
-.tags .tag:hover:not(.selected)
-{
-  background-color: var(--tags-sel-bg-color) !important;
-  padding: var(--tags-padding-size) !important;
-  -webkit-transition: all ease-in-out 0.1s !important;
-  transition: all ease-in-out 0.1s !important;
-}
-
-/* Notes */
-.app .notes .content
-{
-  background-color: var(--notes-bg-color) !important;
-}
-
-.notes
-{
-  border-left: var(--notes-sideborder-size) solid var(--notes-sideborder-color) !important;
-  border-right: var(--notes-sideborder-size) solid var(--notes-sideborder-color) !important;
-}
-
-#notes-title-bar
-{
-  background-color: var(--notes-title-bg-color) !important;
-  font-size: var(--notes-title-font-size) !important;
-  color: var(--notes-title-font-color) !important;
-  text-transform: var(--notes-title-text-transform) !important;
-}
-
-#notes-title-bar .add-button
-{
-  background-color: var(--notes-addBtn-bg-color) !important;
-  height: var(--notes-addBtn-height) !important;
-  width: var(--notes-addBtn-width) !important;
-  margin-top: var(--notes-addBtn-margin-top) !important;
-  border-radius: var(--notes-addBtn-border-radius) !important;
-  font-size: var(--notes-addBtn-font-size) !important;
-}
-
-#notes-title-bar .add-button:hover
-{
-  background-color: var(--notes-addBtnHover-bg-color) !important;
-  height: var(--notes-addBtn-height) !important;
-  width: var(--notes-addBtn-width) !important;
-  margin-top: var(--notes-addBtn-margin-top) !important;
-  border-radius: var(--notes-addBtn-border-radius) !important;
-  font-size: var(--notes-addBtn-font-size) !important;
-  -webkit-transition: all ease-in-out 0.15s, box-shadow ease-in-out 0.15s !important;
-  transition: all ease-in-out 0.15s, box-shadow ease-in-out 0.15s !important;
-}
-
-.notes .filter-section .filter-bar
-{
-  background-color: var(--notes-filter-bg-color) !important;
-  font-size: var(--notes-filter-font-size) !important;
-  text-transform: var(--notes-filter-text-transform) !important;
-}
-
-.notes .note
-{
-  background-color: var(--notes-note-bg-color) !important;
-  border-bottom: var(--notes-note-border-bottom-size) solid var(--notes-note-border-bottom-color) !important;
-  font-size: var(--notes-note-headline-font-size) !important;
-  color: var(--notes-note-headline-font-color) !important;
-}
-
-.notes .note .note-preview
-{
-  font-size: var(--notes-note-preview-font-size) !important;
-  color: var(--notes-note-preview-font-color) !important;
-}
-
-.notes .note .date
-{
-  font-size: var(--notes-note-date-font-size) !important;
-  color: var(--notes-note-date-font-color) !important;
-}
-
-.notes .note.selected
-{
-  background-color: var(--notes-sel-bg-color) !important;
-  border-left: solid var(--notes-sel-borderleft-size) var(--notes-sel-borderleft-color) !important;
-  font-size: var(--notes-note-headline-font-size) !important;
-  color: var(--notes-sel-headline-font-color) !important;
-}
-
-.notes .note:hover
-{
-  background-color: var(--notes-sel-bg-color) !important;
-  border-left: solid var(--notes-sel-borderleft-size) var(--notes-sel-borderleft-color) !important;
-  font-size: var(--notes-note-headline-font-size) !important;
-  color: var(--notes-sel-headline-font-color) !important;
-  -webkit-transition: all ease-in-out 0.15s, box-shadow ease-in-out 0.15s !important;
-  transition: all ease-in-out 0.15s, box-shadow ease-in-out 0.15s !important;
-}
-
-/* EDITOR */
-
-#editor-title-bar
-{
-  background-color: var(--editor-title-bg-color) !important;
-  padding-top: var(--editor-title-padding-top) !important;
-}
-
-#editor-title-bar > .title > .input
-{
-  color: var(--editor-title-headline-font-color) !important;
-  font-size: var(--editor-title-headline-font-size) !important;
-  font-weight: var(--editor-title-headline-font-weight) !important;
-}
-
-#editor-title-bar .editor-tags .tags-input
-{
-  color: var(--editor-title-tag-font-color) !important;
-  font-size: var(--editor-title-tag-font-size) !important;
-  font-weight: var(--editor-title-tag-font-weight) !important;
-}
-
-#editor-title-bar #save-status
-{
-  color: var(--editor-title-tag-font-color) !important;
-  font-size: var(--editor-title-tag-font-size) !important;
-  font-weight: var(--editor-title-tag-font-weight) !important;
-}
-
-/* Plain text??????? */
-.editor-content
-{
-  background-color: var(--editor-bg-color) !important;
-}
-
-.editor-content .editable
-{
-  background-color: var(--editor-bg-color) !important;
-  font-family: var(--overall-font-family) !important;
-  font-size: var(-overall-font-size) !important;
-  color: var(--overall-font-color) !important;
-}
-
-/***** EDITOR *****/
-.CodeMirror
-{
-  background-color: var(--editor-bg-color) !important;
-  font-family: var(--overall-font-family) !important;
-  font-size: var(--overall-font-size) !important;
-  color: var(--overall-font-color) !important;
-  border: 0px !important;
-  border-radius: 0px !important;
-}
-
-.CodeMirror-cursor
-{
-  border-color: var(--overall-font-color);
-}
-
-.editor-toolbar
-{
-  background-color: var(--editor-toolbar-bg-color) !important;
-  border-top: 0px !important;
-  border-left: 0px !important;
-  border-right: 0px !important;
-  border-bottom: var(--editor-toolbar-borderbottom-size) solid var(--editor-toolbar-borderbottom-color) !important;
-  border-radius: 0px !important;
-}
-
-.editor-toolbar.fullscreen::before
-{
-  background: none !important;
-  border-top: 0px !important;
-  border-left: 0px !important;
-  border-right: 0px !important;
-  border-bottom: var(--editor-toolbar-borderbottom-size) solid var(--editor-toolbar-borderbottom-color) !important;
-  border-radius: 0px !important;
-}
-
-.editor-toolbar.fullscreen::after
-{
-  background: none !important;
-  border-top: 0px !important;
-  border-left: 0px !important;
-  border-right: 0px !important;
-  border-bottom: var(--editor-toolbar-borderbottom-size) solid var(--editor-toolbar-borderbottom-color) !important;
-  border-radius: 0px !important;
-}
-
-.editor-toolbar i.separator
-{
-  border-left: var(--editor-toolbar-seperator-size) solid var(--editor-toolbar-seperator-left-color) !important;
-  border-right: var(--editor-toolbar-seperator-size) solid var(--editor-toolbar-seperator-right-color) !important;
-}
-
-.editor-toolbar a
-{
-  background-color: var(--editor-toolbar-a-bg-color) !important;
-  border: var(--editor-toolbar-btn-border) !important;
-  border-radius: var(--editor-toolbar-btn-borderradius) !important;
-  color: var(--editor-toolbar-a-font-color) !important;
-}
-
-.editor-toolbar a:hover
-{
-  background-color: var(--editor-toolbar-a-hover-bg-color) !important;
-  border: var(--editor-toolbar-btn-border) !important;
-  border-radius: var(--editor-toolbar-btn-borderradius) !important;
-  color: var(--editor-toolbar-a-font-color) !important;
-}
-
-.editor-preview-active-side
-{
-  background-color: var(--editor-active-bg-color) !important;
-  border: 0px !important;
-  border-radius: 0px !important;
-}
-
-.editor-preview-active
-{
-  background-color: var(--editor-active-bg-color) !important;
-  border: 0px !important;
-  border-radius: 0px !important;
-}
-
-.editor-preview pre, .editor-preview-side pre
-{
-    background: var(--editor-code-bg-color) !important;
-    padding: 5px 2px 5px 2px !important;
-}
-
-a, a:hover, a:visited, .cm-link
-{
-  color: var(--editor-link-font-color) !important;
+.editor-content .editable {
+  font-family: var(--sn-stylekit-font-family) !important;
 }
 
 h1, .cm-header-1
@@ -680,36 +126,14 @@ h4, .cm-header-4
   color: var(--h4-font-color) !important;
 }
 
-.editor-preview-side img,
-.editor-preview img
-{
-  max-width: 100%;
-  height: auto;
-  width: auto; /* ie8 */
+.CodeMirror > a {
+  color: var(--tags-link-font-color) !important;
+}
+.editor-content .editable > a {
+  color: var(--tags-link-font-color) !important;
 }
 
-/* Tables */
-.editor-preview-side table,
-.editor-preview table
+a, a:hover, a:visited, .cm-link
 {
-  padding: var(--editor-table-padding)  !important;
-  font-size: var(overall-font-size) !important;
-}
-
-.editor-preview-side th,
-.editor-preview th
-{
-  background-color: var(--editor-table-header-bg-color) !important;
-}
-
-.editor-preview-side tr:nth-child(even),
-.editor-preview tr:nth-child(even)
-{
-  background-color: var(--editor-table-even-bg-color) !important;
-}
-
-.editor-preview-side tr:nth-child(odd),
-.editor-preview tr:nth-child(odd)
-{
-  background-color: var(--editor-table-odd-bg-color) !important;
+  color: #569CD6 !important;
 }
