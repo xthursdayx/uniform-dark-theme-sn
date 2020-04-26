@@ -1,11 +1,21 @@
-/* font */
+/* prerequisite: install Markdown Minimist editor */
+
+/* import custom font */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
 
 /* base settings */
 :root {
-  --sn-stylekit-font-family: 'Fira Code', monospace; /*includes ligatures*/
+
+  /* font */
+  --sn-stylekit-font-family: 'Fira Code', monospace; /* includes ligatures */
+
+  /* notes-column, editor and markdown */
   --sn-stylekit-background-color: #1e1e1e;
   --sn-stylekit-foreground-color: #d4d4d4;
+
+  /* tags-content */
+  --sn-stylekit-secondary-background-color: var(--sn-stylekit-background-color);
+  --sn-stylekit-contrast-foreground-color: var(--sn-stylekit-foreground-color);
 }
 
 /* editor */
