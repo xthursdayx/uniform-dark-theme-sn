@@ -36,12 +36,9 @@
 
 }
 
-/* html, body {
-  font-family: 'Fira Code', monospace !important;
-} */
-
 /* editor */
 .editor-content .editable {
+  font-family: var(--sn-stylekit-monospace-font) !important; /* overwrites font toggle */
   font-size: 18px !important;
 }
 
