@@ -47,7 +47,7 @@
 
 /* editor */
 .editor-content .editable {
-  /* font-family: var(--sn-stylekit-font-family) !important; */
+  font-family: var(--sn-stylekit-monospace-font) !important;
   font-size: 18px !important;
 }
 
