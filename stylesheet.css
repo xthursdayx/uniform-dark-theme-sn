@@ -47,8 +47,11 @@
   border-left: none !important;
   border-right: none !important;
 }
-/* borders */
-/* :root #notes-column, .notes {
-  border-left: 0px solid var(--sn-stylekit-border-color) !important;
-  border-right: 0px solid var(--sn-stylekit-border-color) !important;
-} */
+#notes-column .note, .notes .note {
+  border-bottom: none !important;
+}
+
+/* notes-column, editor and markdown */
+.sn-component .sk-app-bar.no-edges {
+  border: none !important;
+}
