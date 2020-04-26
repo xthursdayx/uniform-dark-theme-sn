@@ -42,6 +42,9 @@
   line-height: 2em !important; /* extra space above and below headers */
   color: #569CD6 !important;
 }
+.CodeMirror-scroll {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
 
 /* notes-column */
 #notes-column {
