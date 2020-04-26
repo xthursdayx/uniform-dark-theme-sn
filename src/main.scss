@@ -1,17 +1,17 @@
 :root {
 
-  --background-1: #002B36;
-  --background-2: #083642;
+  --background-1: #263238;
+  --background-2: #263238;
 
-  --foreground-color: #FDF6E3;
-  --highlight-color: #2AA198;
-  --border-color: #00252e;
+  --foreground-color: #FFFFFF;
+  --highlight-color: #009688;
+  --border-color: #37474F;
   --pre-color: #d6dbdb;
 
-  --content-1: #586D75;
-  --content-2: #667A83;
-  --content-3: #839496;
-  --content-4: #93A1A1;
+  --content-1: #AABBC3;
+  --content-2: #AABBC3;
+  --content-3: #AABBC3;
+  --content-4: #AABBC3;
 
   /* Footer */
   --footer-bar-border-top-color: 0;
@@ -26,6 +26,8 @@
   --sn-component-inner-border-color: var(--highlight-color);
 
   // StyleKit Vars
+  --sn-stylekit-info-color: #009688;
+
   --sn-stylekit-info-color: var(--highlight-color);
   --sn-stylekit-info-contrast-color: var(--foreground-color);
 
