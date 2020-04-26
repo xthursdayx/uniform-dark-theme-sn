@@ -39,7 +39,7 @@
   font-size: 18px !important;
 }
 .CodeMirror .cm-header {
-  line-height: 1.5em !important; /* extra space above and below headers */
+  line-height: 2em !important; /* extra space above and below headers */
   color: #569CD6 !important;
 }
 
@@ -57,5 +57,10 @@
 
 /* notes-column, editor and markdown */
 .sn-component .sk-app-bar.no-edges {
+  border: none !important;
+}
+
+/* footer-bar */
+.sn-component .sk-app-bar .sk-app-bar-item.border {
   border: none !important;
 }
