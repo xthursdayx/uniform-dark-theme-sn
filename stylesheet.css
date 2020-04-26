@@ -17,9 +17,8 @@
   font-family: var(--sn-stylekit-font-family) !important;
   font-size: 18px !important;
 }
-
-.cm-header-1 {
-  padding-top: 50px !important;
+.CodeMirror .cm-header {
+  line-height: 1.5em !important;
 }
 
 
