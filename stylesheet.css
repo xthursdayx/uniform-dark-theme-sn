@@ -10,7 +10,7 @@
 
 
   /* --sn-stylekit-font-family: inherit, 'Fira Code', monospace;*/ /* includes ligatures */
-  --sn-stylekit-monospace-font: 'Fira Code', monospace, inherit;
+  --sn-stylekit-monospace-font: 'Fira Code', monospace;
   --sn-stylekit-sans-serif-font: -apple-system, BlinkMacSystemFont,
     "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans",
@@ -47,7 +47,7 @@
 
 /* editor */
 .editor-content .editable {
-  font-family: var(--sn-stylekit-monospace-font) !important;
+  /* font-family: var(--sn-stylekit-monospace-font) !important; */
   font-size: 18px !important;
 }
 
