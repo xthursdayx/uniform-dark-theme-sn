@@ -126,7 +126,9 @@ h4, .cm-header-4
   color: var(--h4-font-color) !important;
 }
 
-.tags .tag > .menu a
-{
+.CodeMirror a {
+  color: var(--tags-link-font-color) !important;
+}
+.editor-content .editable a {
   color: var(--tags-link-font-color) !important;
 }
