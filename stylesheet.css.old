@@ -681,7 +681,6 @@ table, th, td
 .editor-content .editable
 {
   background-color: var(--editor-bg-color) !important;
-  font-family: var(--overall-font-family) !important;
   font-size: var(-overall-font-size) !important;
   color: var(--overall-font-color) !important;
 }
@@ -775,18 +774,6 @@ table, th, td
 a, a:hover, a:visited, .cm-link
 {
   color: var(--editor-link-font-color) !important;
-}
-
-h1, .cm-header-1
-{
-  font-size: var(--h1-font-size) !important;
-  color: var(--h1-font-color) !important;
-}
-
-h2, .cm-header-2
-{
-  font-size: var(--h2-font-size) !important;
-  color: var(--h2-font-color) !important;
 }
 
 h3, .cm-header-3
