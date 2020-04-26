@@ -23,7 +23,7 @@
   padding-top: 2.5em !important;
 } */
 h1 { /*.CodeMirror > h1, .cm-header-1 {*/
-  padding: 2.5em !important;
+  padding: 50px !important;
   /* font-size: var(--h1-font-size) !important;
   color: var(--h1-font-color) !important; */
 }
