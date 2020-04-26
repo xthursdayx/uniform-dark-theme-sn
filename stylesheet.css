@@ -4,6 +4,8 @@
 /* base settings */
 :root {
   --sn-stylekit-font-family: 'Fira Code', monospace; /*includes ligatures*/
+  --sn-stylekit-background-color: #1e1e1e;
+  --sn-stylekit-foreground-color: #d4d4d4;
 }
 
 /* editor */
@@ -18,33 +20,5 @@
   font-size: 18px !important;
 }
 .CodeMirror .cm-header {
-  line-height: 1.5em !important;
-}
-
-
-/* headers */
-/* h1, h2, h3, h4, h5, h6 {
-  padding-top: 2.5em !important;
-} */
-h1 { /*.CodeMirror > h1, .cm-header-1 {*/
-  padding: 50px !important;
-  /* font-size: var(--h1-font-size) !important;
-  color: var(--h1-font-color) !important; */
-}
-.CodeMirror > h2 { /*, .cm-header-2 {*/
-  padding: 2.5em !important;
-  /* font-size: var(--h2-font-size) !important;
-  color: var(--h2-font-color) !important; */
-}
-
-/* *{
-  margin:0;
-  padding:0;
-} */
-
-.editor-preview pre, .editor-preview-side pre
-{
-    background: var(--editor-code-bg-color) !important;
-    /* padding: 5px 2px 5px 2px !important; */
-    padding-top: 50px !important;
+  line-height: 1.5em !important; /* extra space above and below headers */
 }

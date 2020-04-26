@@ -37,9 +37,7 @@
   --sn-stylekit-danger-contrast-color: white;
 
   --sn-stylekit-shadow-color: #C8C8C8;
-  --sn-stylekit-background-color: #1e1e1e;
   --sn-stylekit-border-color: #1e1e1e;
-  --sn-stylekit-foreground-color: #d4d4d4;
 
   --sn-stylekit-contrast-background-color: var(--sn-stylekit-background-color);
   --sn-stylekit-contrast-foreground-color: var(--sn-stylekit-foreground-color);
@@ -814,4 +812,10 @@ h4, .cm-header-4
 .editor-preview tr:nth-child(odd)
 {
   background-color: var(--editor-table-odd-bg-color) !important;
+}
+
+.editor-preview pre, .editor-preview-side pre
+{
+    background: var(--editor-code-bg-color) !important;
+    padding: 5px 2px 5px 2px !important;
 }
