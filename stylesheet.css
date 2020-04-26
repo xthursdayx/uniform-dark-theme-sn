@@ -87,5 +87,10 @@
 
 ::-webkit-scrollbar-thumb
 {
-    border-radius: 0px !important;
+    border-radius: 0px !important; /* windows style */
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #F5F5F5;
 }
