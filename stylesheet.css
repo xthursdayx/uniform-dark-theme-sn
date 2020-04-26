@@ -8,7 +8,7 @@
 
   /* font */
 
-
+  font-family: 'Fira Code', monospace;
   /* --sn-stylekit-font-family: inherit, 'Fira Code', monospace;*/ /* includes ligatures */
   --sn-stylekit-monospace-font: 'Fira Code';
   /* --sn-stylekit-sans-serif-font: -apple-system, BlinkMacSystemFont,
