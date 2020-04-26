@@ -1,4 +1,4 @@
-/* prerequisite: install Markdown Minimist editor */
+/* prerequisite: install Markdown Pro editor */
 
 /* import custom font */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
@@ -58,10 +58,6 @@
 .CodeMirror-scroll {
   overflow-x: hidden !important; /* Hide horizontal scrollbar */
 }
-.CodeMirror-vscrollbar {
-  border-radius: 0px !important;
-  border-color: red !important;
-}
 
 /* notes-column */
 #notes-column {
@@ -92,4 +88,9 @@
 ::-webkit-scrollbar-thumb
 {
     border-radius: 0px !important; /* windows style */
+}
+
+/* selection */
+.editor-content, #editor-content ::selection {
+  background-color: #264f78 !important;
 }
