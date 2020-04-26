@@ -61,21 +61,21 @@
     "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans",
     "Droid Sans", "Helvetica Neue", sans-serif;
-}
+} */
 
 /* borders */
-:root #notes-column, .notes {
+/* :root #notes-column, .notes {
   border-left: 0px solid var(--sn-stylekit-border-color) !important;
   border-right: 0px solid var(--sn-stylekit-border-color) !important;
-}
+} */
 
 /* notes */
-:root #notes-column .note.selected, .notes .note.selected {
+/* :root #notes-column .note.selected, .notes .note.selected {
   background-color: #424242;
-}
+} */
 
 /* selection */
-:root .editor-content, #editor-content ::selection {
+/* :root .editor-content, #editor-content ::selection {
   background-color: var(--sn-stylekit-info-color) !important;
 } */
 
