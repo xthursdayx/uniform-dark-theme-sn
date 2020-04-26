@@ -38,22 +38,6 @@
   --sn-stylekit-scrollbar-thumb-color: #424242;
   --sn-stylekit-scrollbar-track-border-color: #1e1e1e;
 
-  --sn-stylekit-neutral-color: #989898;
-  --sn-stylekit-neutral-contrast-color: white;
-
-  --sn-stylekit-info-color: #CE9178;
-  --sn-stylekit-info-contrast-color: white;
-
-  --sn-stylekit-success-color: #2B9612;
-  --sn-stylekit-success-contrast-color: white;
-
-  --sn-stylekit-warning-color: #f6a200;
-  --sn-stylekit-warning-contrast-color: white;
-
-  --sn-stylekit-danger-color: #F80324;
-  --sn-stylekit-danger-contrast-color: white;
-
-
 }
 
 /* editor */
@@ -73,6 +57,10 @@
 }
 .CodeMirror-scroll {
   overflow-x: hidden !important; /* Hide horizontal scrollbar */
+}
+.CodeMirror-scroll::-webkit-scrollbar-track {
+  border-radius: 0px !important;
+  border-color: red !important;
 }
 
 /* notes-column */
@@ -104,9 +92,4 @@
 ::-webkit-scrollbar-thumb
 {
     border-radius: 0px !important; /* windows style */
-}
-
-::-webkit-scrollbar-track {
-  border-radius: 0px !important;
-  border-color: red !important;
 }
