@@ -11,10 +11,11 @@
 
   /* --sn-stylekit-font-family: inherit, 'Fira Code', monospace;*/ /* includes ligatures */
   --sn-stylekit-monospace-font: 'Fira Code';
-  --sn-stylekit-sans-serif-font: -apple-system, BlinkMacSystemFont,
+  /* --sn-stylekit-sans-serif-font: -apple-system, BlinkMacSystemFont,
     "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans",
-    "Droid Sans", "Helvetica Neue", sans-serif;
+    "Droid Sans", "Helvetica Neue", sans-serif; */
+    --sn-stylekit-sans-serif-font: "Ubuntu Mono";
 
 
 
