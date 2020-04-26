@@ -2,7 +2,7 @@
 
 :root {
   --sn-stylekit-base-font-size: 16px;
-  --sn-stylekit-font-family: 'Fira Code';
+  --sn-stylekit-font-family: 'Fira Code', monospace;
   --sn-stylekit-font-size-p: 1.0rem;
   --sn-stylekit-font-size-editor: 1.21rem;
 
@@ -79,4 +79,12 @@
 /* selection */
 :root .editor-content, #editor-content ::selection {
   background-color: var(--sn-stylekit-info-color) !important;
+}
+
+/* content */
+.CodeMirror {
+  font-family: var(--sn-stylekit-font-family) !important;
+}
+.editor-content .editable {
+  font-family: var(--sn-stylekit-font-family) !important;
 }
