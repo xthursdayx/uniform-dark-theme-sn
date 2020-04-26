@@ -22,13 +22,13 @@
 /* h1, h2, h3, h4, h5, h6 {
   padding-top: 2.5em !important;
 } */
-.CodeMirror > h1, .cm-header-1 {
-  padding-top: 2.5em !important;
+.CodeMirror > h1 { /*, .cm-header-1 {*/
+  padding: 2.5em !important;
   /* font-size: var(--h1-font-size) !important;
   color: var(--h1-font-color) !important; */
 }
-.CodeMirror > h2, .cm-header-2 {
-  padding-top: 2.5em !important;
+.CodeMirror > h2 { /*, .cm-header-2 {*/
+  padding: 2.5em !important;
   /* font-size: var(--h2-font-size) !important;
   color: var(--h2-font-color) !important; */
 }
