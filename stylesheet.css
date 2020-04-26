@@ -10,6 +10,7 @@
 .editor-content .editable {
   font-family: var(--sn-stylekit-font-family) !important;
   font-size: 18px !important;
+  padding-top: 50px !important;
 }
 
 /* markdown */
