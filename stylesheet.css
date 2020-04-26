@@ -8,6 +8,10 @@
 
   /* font */
   --sn-stylekit-monospace-font: 'Fira Code', monospace; /* includes ligatures */
+  --sn-stylekit-sans-serif-font: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
 
   /* notes-column, editor and markdown */
   --sn-stylekit-background-color: #1e1e1e;
@@ -71,6 +75,7 @@ html, body {
 }
 #notes-column .filter-section .filter-bar, .notes .filter-section .filter-bar {
   background-color: #424242;
+  height: 115%; /* correction */
 }
 
 /* notes-column, editor and markdown */
