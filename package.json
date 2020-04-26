@@ -1,18 +1,12 @@
 {
-  "name": "sn-theme-solarized-dark",
-  "version": "1.2.1",
-  "main": "dist/dist.css",
-  "devDependencies": {
-    "grunt": "^1.0.1",
-    "grunt-contrib-watch": "^1.0.0",
-    "grunt-newer": "^1.2.0",
-    "grunt-contrib-sass": "^1.0.0"
-  },
-  "sn": {
-    "main": "dist/dist.css"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/sn-extensions/solarized-dark-theme.git"
-  }
+    "name": "sn-theme-material",
+    "version": "1.0.0",
+    "main": "src/main.css",
+    "sn": {
+      "main": "src/main.css"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/vantezzen/sn-theme-material.git"
+    }
 }
