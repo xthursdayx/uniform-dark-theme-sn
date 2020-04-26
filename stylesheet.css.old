@@ -67,11 +67,6 @@
     "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
-/* notes */
-:root #notes-column .note.selected, .notes .note.selected {
-  background-color: #424242;
-}
-
 /* selection */
 :root .editor-content, #editor-content ::selection {
   background-color: var(--sn-stylekit-info-color) !important;
