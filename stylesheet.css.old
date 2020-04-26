@@ -36,10 +36,6 @@
   --sn-stylekit-danger-color: #F80324;
   --sn-stylekit-danger-contrast-color: white;
 
-  --sn-stylekit-shadow-color: #C8C8C8;
-  --sn-stylekit-border-color: #1e1e1e;
-
-
   --sn-stylekit-secondary-border-color: var(--sn-stylekit-border-color);
 
   --sn-stylekit-contrast-border-color: var(--sn-stylekit-border-color);
