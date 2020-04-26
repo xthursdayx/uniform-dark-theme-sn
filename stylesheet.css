@@ -36,7 +36,7 @@
 
   /* scrollbar */
   --sn-stylekit-scrollbar-thumb-color: #424242;
-  --sn-stylekit-scrollbar-track-border-color: none;
+  --sn-stylekit-scrollbar-track-border-color: #1e1e1e;
 
 }
 
@@ -83,4 +83,9 @@
 /* footer-bar */
 .sn-component .sk-app-bar .sk-app-bar-item.border {
   border: none !important;
+}
+
+::-webkit-scrollbar
+{
+    width: 50px !important;
 }
