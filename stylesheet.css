@@ -14,7 +14,7 @@
     "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans",
     "Droid Sans", "Helvetica Neue", sans-serif; */
-    /* --sn-stylekit-sans-serif-font: "Ubuntu Mono"; */
+  /* --sn-stylekit-sans-serif-font: "Ubuntu Mono"; */
 
 
 
@@ -45,7 +45,7 @@
 
 }
 
-body {
+html, body {
   font-family: 'Fira Code', monospace;
 }
 
