@@ -36,6 +36,7 @@
 
   /* scrollbar */
   --sn-stylekit-scrollbar-thumb-color: #424242;
+  --sn-stylekit-scrollbar-track-border-color: none;
 
 }
 
