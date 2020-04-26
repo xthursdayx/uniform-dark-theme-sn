@@ -69,6 +69,9 @@ html, body {
 #notes-column .note.selected, .notes .note.selected {
   background-color: #424242;
 }
+#notes-column .filter-section .filter-bar, .notes .filter-section .filter-bar {
+  background-color: #424242;
+}
 
 /* notes-column, editor and markdown */
 .sn-component .sk-app-bar.no-edges {
