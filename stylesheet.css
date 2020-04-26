@@ -43,7 +43,7 @@
   color: #569CD6 !important;
 }
 .CodeMirror-scroll {
-  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-x: hidden !important; /* Hide horizontal scrollbar */
 }
 
 /* notes-column */
