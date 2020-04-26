@@ -10,7 +10,7 @@
 
 
   /* --sn-stylekit-font-family: inherit, 'Fira Code', monospace;*/ /* includes ligatures */
-  --sn-stylekit-monospace-font: 'Fira Code', monospace;
+  --sn-stylekit-monospace-font: inherit, 'Fira Code', monospace;
   --sn-stylekit-sans-serif-font: -apple-system, BlinkMacSystemFont,
     "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans",
