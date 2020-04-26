@@ -765,12 +765,6 @@ table, th, td
   border-radius: 0px !important;
 }
 
-.editor-preview pre, .editor-preview-side pre
-{
-    background: var(--editor-code-bg-color) !important;
-    padding: 5px 2px 5px 2px !important;
-}
-
 a, a:hover, a:visited, .cm-link
 {
   color: var(--editor-link-font-color) !important;
