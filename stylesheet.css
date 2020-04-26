@@ -32,3 +32,8 @@ h1 { /*.CodeMirror > h1, .cm-header-1 {*/
   /* font-size: var(--h2-font-size) !important;
   color: var(--h2-font-color) !important; */
 }
+
+*{
+  margin:0;
+  padding:0;
+}
