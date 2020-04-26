@@ -4,17 +4,18 @@
 /* base settings */
 :root {
   --sn-stylekit-font-family: 'Fira Code', monospace; /*includes ligatures*/
-  --sn-stylekit-base-font-size: 18px;
+  /* --sn-stylekit-base-font-size: 18px; */
 }
 
 /* editor */
 .editor-content .editable {
   font-family: var(--sn-stylekit-font-family) !important;
-  font-size: var(--overall-font-size) !important;
+  /* font-size: var(--overall-font-size) !important; */
+  font-size: 18px !important;
 }
 
 /* markdown */
 .CodeMirror {
   font-family: var(--sn-stylekit-font-family) !important;
-  font-size: var(--overall-font-size) !important;
+  /* font-size: var(--overall-font-size) !important; */
 }
