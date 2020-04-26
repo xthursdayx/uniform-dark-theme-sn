@@ -7,12 +7,16 @@
 :root {
 
   /* font */
+
+
   /*--sn-stylekit-font-family: 'Fira Code', monospace;*/ /* includes ligatures */
   --sn-stylekit-monospace-font: 'Fira Code', monospace;
   /* --sn-stylekit-sans-serif-font: -apple-system, BlinkMacSystemFont,
     "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans",
     "Droid Sans", "Helvetica Neue", sans-serif; */
+
+
 
   /* notes-column, editor and markdown */
   --sn-stylekit-background-color: #1e1e1e;
@@ -39,6 +43,10 @@
   --sn-stylekit-contrast-border-color: var(--sn-stylekit-border-color);
   --sn-stylekit-secondary-contrast-border-color: var(--sn-stylekit-border-color);
 
+}
+
+code {
+  font-family: var(--sn-stylekit-monospace-font) !important;
 }
 
 /* editor */
