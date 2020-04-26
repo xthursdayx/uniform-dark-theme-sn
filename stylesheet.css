@@ -42,5 +42,5 @@ h1 { /*.CodeMirror > h1, .cm-header-1 {*/
 {
     background: var(--editor-code-bg-color) !important;
     /* padding: 5px 2px 5px 2px !important; */
-    padding-top: 20px !important;
+    padding-top: 50px !important;
 }
