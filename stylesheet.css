@@ -6,6 +6,10 @@
   --sn-stylekit-font-family: 'Fira Code', monospace; /*includes ligatures*/
 }
 
+.editor-content {
+  font-family: var(--sn-stylekit-font-family) !important;
+}
+
 /* content */
 .CodeMirror {
   font-family: var(--sn-stylekit-font-family) !important;
