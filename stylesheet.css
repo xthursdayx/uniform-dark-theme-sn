@@ -92,6 +92,6 @@
 
 ::-webkit-scrollbar-track {
   border-radius: 0px;
-  border: 0px;
+  border-color: red;
   background-color: #F5F5F5;
 }
