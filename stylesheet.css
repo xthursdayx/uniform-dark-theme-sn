@@ -17,3 +17,8 @@
   font-family: var(--sn-stylekit-font-family) !important;
   font-size: 18px !important;
 }
+
+/* headers */
+h1, h2, h3, h4, h5, h6 {
+  padding-top: .5em !important;
+}
