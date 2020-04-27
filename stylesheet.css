@@ -98,8 +98,8 @@ h1, h2, h3, h4 {
   color: #569CD6FC !important;
 }
 ::selection {
-  background-color: #222;
-  color: white;
+  background-color: #569CD640 !important;
+  /* color: white; */
 }
 
 /* notes-column */
