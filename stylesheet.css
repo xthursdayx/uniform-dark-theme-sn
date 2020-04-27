@@ -11,8 +11,8 @@
   --sn-stylekit-monospace-font: 'Fira Code', monospace; /* includes ligatures */
 
   /* notes-column, editor and markdown */
-  --sn-stylekit-background-color: #1e1e1efc;
-  --sn-stylekit-foreground-color: #d4d4d4fc;
+  --sn-stylekit-background-color: #1E1E1EFC;
+  --sn-stylekit-foreground-color: #D4D4D4FC;
 
   /* tags-content */
   --sn-stylekit-secondary-background-color: var(--sn-stylekit-background-color);
@@ -27,10 +27,10 @@
   --sn-stylekit-secondary-contrast-foreground-color: var(--sn-stylekit-foreground-color);
 
   /* shadow */
-  --sn-stylekit-shadow-color: #000000fc;
+  --sn-stylekit-shadow-color: #000000FC;
 
   /* borders */
-  --sn-stylekit-border-color: #424242fc;
+  --sn-stylekit-border-color: #424242FC;
   --sn-stylekit-secondary-border-color: var(--sn-stylekit-border-color);
   --sn-stylekit-contrast-border-color: var(--sn-stylekit-border-color);
   --sn-stylekit-secondary-contrast-border-color: var(--sn-stylekit-border-color);
@@ -63,7 +63,7 @@
   color: #569CD6FC !important;
 }
 .CodeMirror .cm-formatting-header, .CodeMirror .cm-formatting-strong, .CodeMirror .cm-formatting-em {
-  opacity: 1; /* pound signs same color as headers */
+  opacity: 1 !important; /* pound signs same color as headers */
 }
 .CodeMirror-scroll {
   overflow-x: hidden !important; /* Hide horizontal scrollbar */
@@ -102,11 +102,11 @@ a a:hover, a:visited, .cm-link {
   border-bottom: none !important;
 }
 #notes-column .note.selected, .notes .note.selected {
-  background-color: var(--sn-stylekit-border-color);
+  background-color: var(--sn-stylekit-border-color) !important;
 }
 #notes-column .filter-section .filter-bar, .notes .filter-section .filter-bar {
-  background-color: var(--sn-stylekit-border-color);
-  height: 115%; /* correction */
+  background-color: var(--sn-stylekit-border-color) !important;
+  height: 115% !important; /* correction */
 }
 
 /* notes-column, editor and markdown */
