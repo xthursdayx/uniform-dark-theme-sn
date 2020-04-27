@@ -1,4 +1,4 @@
-  :root {
+:root {
   --sn-stylekit-font-size-p: 1.0rem;
   --sn-stylekit-font-size-editor: 1.21rem;
 
@@ -22,7 +22,6 @@
   --sn-stylekit-font-size-h2: 1.2rem;
   --sn-stylekit-font-size-h1: 1.3rem;
 
-  --sn-stylekit-neutral-color: #989898;
   --sn-stylekit-neutral-contrast-color: white;
 
   --sn-stylekit-info-color: #CE9178;
