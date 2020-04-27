@@ -38,6 +38,9 @@
   --sn-stylekit-scrollbar-thumb-color: #424242;
   --sn-stylekit-scrollbar-track-border-color: #1e1e1e;
 
+  --sn-stylekit-neutral-color: red; /* 989898 */
+
+
 }
 
 /* editor */
@@ -62,7 +65,7 @@
   overflow-x: hidden !important; /* Hide horizontal scrollbar */
 }
 .CodeMirror-selectedtext {
-  background: #FFFFFF40 !important;
+  background: #FFFFFF20 !important;
   color: var(--sn-stylekit-foreground-color) !important;
 }
 .CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like {
@@ -72,11 +75,14 @@
   color: #569CD6FC !important;
 }
 .CodeMirror .cm-link.CodeMirror-selectedtext, .CodeMirror .cm-string.CodeMirror-selectedtext {
-  background: #FFFFFF40 !important;
+  background: #FFFFFF20 !important;
   color: #569CD6FC !important;
 }
 a a:hover, a:visited, .cm-link {
   text-decoration: none !important;
+}
+.editor-toolbar button {
+  color: var(--sn-stylekit-foreground-color) !important;
 }
 
 /* notes-column */
