@@ -94,7 +94,7 @@ a a:hover, a:visited, .cm-link {
 }
 
 /* markdown preview */
-h {
+h1, h2, h3, h4 {
   color: #569CD6FC !important;
 }
 
