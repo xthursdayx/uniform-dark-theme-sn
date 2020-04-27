@@ -89,6 +89,9 @@
 .editor-toolbar button {
   color: var(--sn-stylekit-foreground-color) !important;
 }
+.CodeMirror .CodeMirror-code .cm-comment {
+  color: var(--sn-stylekit-foreground-color) !important;
+}
 
 /* markdown preview */
 h1, h2, h3, h4 {
@@ -99,7 +102,6 @@ h1, h2, h3, h4 {
 }
 ::selection {
   background-color: #569CD640 !important;
-  /* color: white; */
 }
 
 /* notes-column */
