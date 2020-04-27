@@ -86,9 +86,6 @@
   background: #569CD640 !important;
   color: #569CD6FC !important;
 }
-a a:hover, a:visited, .cm-link {
-  text-decoration: none !important;
-}
 .editor-toolbar button {
   color: var(--sn-stylekit-foreground-color) !important;
 }
@@ -96,6 +93,13 @@ a a:hover, a:visited, .cm-link {
 /* markdown preview */
 h1, h2, h3, h4 {
   color: #569CD6FC !important;
+}
+.editor-preview-active a, .editor-preview-active-side a {
+  color: #569CD6FC !important;
+}
+::selection {
+  background-color: #222;
+  color: white;
 }
 
 /* notes-column */
