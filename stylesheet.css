@@ -10,7 +10,7 @@
   --sn-stylekit-monospace-font: 'Fira Code', monospace; /* includes ligatures */
 
   /* notes-column, editor and markdown */
-  --sn-stylekit-background-color: rgb(30, 30, 30, 0.99);
+  --sn-stylekit-background-color: #1e1e1e;
   --sn-stylekit-foreground-color: #d4d4d4;
 
   /* tags-content */
@@ -92,5 +92,5 @@
 
 /* selection */
 #note-text-editor::selection {
-  background-color: rgba(38, 79, 120, 0.99) !important;
+  background-color: #569CD6 !important;
 }
