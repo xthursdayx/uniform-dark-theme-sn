@@ -62,7 +62,7 @@
   overflow-x: hidden !important; /* Hide horizontal scrollbar */
 }
 .CodeMirror-selectedtext {
-  background: #569CD6FC !important;
+  background: #FFFFFF80 !important;
 }
 .CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like {
   background: #1e1e1eFC !important; /* want only text highlighted */
@@ -76,7 +76,6 @@
 a a:hover, a:visited, .cm-link {
   text-decoration: none !important;
 }
-
 
 /* notes-column */
 #notes-column {
