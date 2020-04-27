@@ -10,8 +10,8 @@
   --sn-stylekit-monospace-font: 'Fira Code', monospace; /* includes ligatures */
 
   /* notes-column, editor and markdown */
-  --sn-stylekit-background-color: #1e1e1e;
-  --sn-stylekit-foreground-color: #d4d4d4;
+  --sn-stylekit-background-color: #1e1e1efc;
+  --sn-stylekit-foreground-color: #d4d4d4fc;
 
   /* tags-content */
   --sn-stylekit-secondary-background-color: var(--sn-stylekit-background-color);
@@ -62,15 +62,17 @@
   overflow-x: hidden !important; /* Hide horizontal scrollbar */
 }
 .CodeMirror-selectedtext {
-  background: #FFFFFF80 !important;
+  background: #FFFFFF40 !important;
+  color: var(--sn-stylekit-foreground-color) !important;
 }
 .CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like {
-  background: #1e1e1eFC !important; /* want only text highlighted */
-}
-.CodeMirror .cm-link.CodeMirror-selectedtext, .CodeMirror .cm-string.CodeMirror-selectedtext {
-  background: #FFFFFF80 !important;
+  background: var(--sn-stylekit-background-color) !important; /* want only text highlighted */
 }
 .CodeMirror .cm-link, .CodeMirror .cm-string {
+  color: #569CD6FC !important;
+}
+.CodeMirror .cm-link.CodeMirror-selectedtext, .CodeMirror .cm-string.CodeMirror-selectedtext {
+  background: #FFFFFF40 !important;
   color: #569CD6FC !important;
 }
 a a:hover, a:visited, .cm-link {
