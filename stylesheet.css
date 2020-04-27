@@ -45,6 +45,9 @@
   font-family: var(--sn-stylekit-monospace-font) !important; /* overwrites font toggle */
   font-size: 18px !important;
 }
+#note-text-editor::selection {
+  background-color: #569CD6FC !important;
+}
 
 /* markdown */
 .CodeMirror {
@@ -53,10 +56,13 @@
 }
 .CodeMirror .cm-header {
   line-height: 2em !important; /* extra space above and below headers */
-  color: #569CD6 !important;
+  color: #569CD6FC !important;
 }
 .CodeMirror-scroll {
   overflow-x: hidden !important; /* Hide horizontal scrollbar */
+}
+.CodeMirror-selectedtext {
+  background: #569CD6FC !important;
 }
 
 /* notes-column */
@@ -88,9 +94,4 @@
 ::-webkit-scrollbar-thumb
 {
     border-radius: 0px !important; /* windows style */
-}
-
-/* selection */
-#note-text-editor::selection {
-  background-color: #569CD6FC !important;
 }
