@@ -65,7 +65,7 @@
   background: #569CD6FC !important;
 }
 .CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like {
-  background: #569CD6FC !important; /* want only text highlighted */
+  background: #1e1e1eFC !important; /* want only text highlighted */
 }
 .CodeMirror .cm-link.CodeMirror-selectedtext, .CodeMirror .cm-string.CodeMirror-selectedtext {
   background: #569CD6FC !important;
