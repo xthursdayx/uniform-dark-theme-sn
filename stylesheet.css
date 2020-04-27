@@ -1,4 +1,5 @@
 /* prerequisite: install Markdown Pro editor */
+/* electron or chrome colors slightly off, so appending hex color opacity of fc (99%) */
 
 /* import custom font */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
@@ -26,17 +27,16 @@
   --sn-stylekit-secondary-contrast-foreground-color: var(--sn-stylekit-foreground-color);
 
   /* shadow */
-  --sn-stylekit-shadow-color: black;
+  --sn-stylekit-shadow-color: #000000fc;
 
   /* borders */
-  --sn-stylekit-border-color: #424242;
+  --sn-stylekit-border-color: #424242fc;
   --sn-stylekit-secondary-border-color: var(--sn-stylekit-border-color);
   --sn-stylekit-contrast-border-color: var(--sn-stylekit-border-color);
   --sn-stylekit-secondary-contrast-border-color: var(--sn-stylekit-border-color);
 
   /* scrollbar */
-  --sn-stylekit-scrollbar-thumb-color: #424242;
-  --sn-stylekit-scrollbar-track-border-color: #1e1e1e;
+  --sn-stylekit-scrollbar-thumb-color: var(--sn-stylekit-border-color);
 
   /* extensions descriptions */
   --sn-stylekit-paragraph-text-color: var(--sn-stylekit-foreground-col);
@@ -102,10 +102,10 @@ a a:hover, a:visited, .cm-link {
   border-bottom: none !important;
 }
 #notes-column .note.selected, .notes .note.selected {
-  background-color: #424242;
+  background-color: var(--sn-stylekit-border-color);
 }
 #notes-column .filter-section .filter-bar, .notes .filter-section .filter-bar {
-  background-color: #424242;
+  background-color: var(--sn-stylekit-border-color);
   height: 115%; /* correction */
 }
 
