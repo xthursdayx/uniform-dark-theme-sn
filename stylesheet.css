@@ -74,7 +74,7 @@
   color: #569CD6FC !important;
 }
 
-a, /*a:hover, a:visited, .cm-link*/
+a /*a:hover, a:visited, .cm-link*/
 {
   text-decoration: none !important;
 }
