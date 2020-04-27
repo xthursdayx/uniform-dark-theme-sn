@@ -93,6 +93,11 @@ a a:hover, a:visited, .cm-link {
   color: var(--sn-stylekit-foreground-color) !important;
 }
 
+/* markdown preview */
+h {
+  color: #569CD6FC !important;
+}
+
 /* notes-column */
 #notes-column {
   border-left: none !important;
