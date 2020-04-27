@@ -92,5 +92,5 @@
 
 /* selection */
 #note-text-editor::selection {
-  background-color: #569CD6 !important;
+  background-color: #569CD6FC !important;
 }
