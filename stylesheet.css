@@ -38,6 +38,7 @@
   --sn-stylekit-scrollbar-thumb-color: #424242;
   --sn-stylekit-scrollbar-track-border-color: #1e1e1e;
 
+  /* extensions descriptions */
   --sn-stylekit-paragraph-text-color: var(--sn-stylekit-foreground-col);
 
 
@@ -61,11 +62,14 @@
   line-height: 2em !important; /* extra space above and below headers */
   color: #569CD6FC !important;
 }
+.CodeMirror .cm-formatting-header, .CodeMirror .cm-formatting-strong, .CodeMirror .cm-formatting-em {
+  opacity: 1; /* pound signs same color as headers */
+}
 .CodeMirror-scroll {
   overflow-x: hidden !important; /* Hide horizontal scrollbar */
 }
 .CodeMirror-selectedtext {
-  background: #FFFFFF20 !important;
+  background: #569CD620 !important;
   color: var(--sn-stylekit-foreground-color) !important;
 }
 .CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like {
@@ -75,7 +79,7 @@
   color: #569CD6FC !important;
 }
 .CodeMirror .cm-link.CodeMirror-selectedtext, .CodeMirror .cm-string.CodeMirror-selectedtext {
-  background: #FFFFFF20 !important;
+  background: #569CD620 !important;
   color: #569CD6FC !important;
 }
 a a:hover, a:visited, .cm-link {
