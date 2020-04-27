@@ -38,8 +38,7 @@
   --sn-stylekit-scrollbar-thumb-color: #424242;
   --sn-stylekit-scrollbar-track-border-color: #1e1e1e;
 
-  --sn-stylekit-neutral-color: red; /* 989898 */
-  --sn-stylekit-paragraph-text-color: green; /* 454545 */
+  --sn-stylekit-paragraph-text-color: var(--sn-stylekit-foreground-col);
 
 
 }
