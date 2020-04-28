@@ -84,6 +84,9 @@
   color: var(--sn-stylekit-foreground-color) !important; /* markdown incorrectly flags some strings as links */
   text-decoration: none !important;
 }
+.CodeMirror .cm-link.cm-variable-2, .CodeMirror .cm-url.cm-variable-2 {
+  color: var(--sn-stylekit-foreground-color) !important; /* markdown incorrectly flags some strings as links */
+}
 .cm-s-easymde .cm-url {
   color: var(--sn-stylekit-info-color) !important;
 }
