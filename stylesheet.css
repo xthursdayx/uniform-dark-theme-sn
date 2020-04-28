@@ -38,10 +38,9 @@
   /* scrollbar */
   --sn-stylekit-scrollbar-thumb-color: var(--sn-stylekit-border-color);
 
-  /* extensions descriptions */
+  /* extensions info and descriptions */
+  --sn-stylekit-info-color: #569CD6FC;
   --sn-stylekit-paragraph-text-color: var(--sn-stylekit-foreground-col);
-  --sn-stylekit-info-color: #CE9178;
-
 
 }
 
@@ -51,7 +50,7 @@
   font-size: 18px !important;
 }
 #note-text-editor::selection {
-  background-color: #569CD6FC !important;
+  background-color: #569CD640 !important;
 }
 
 /* markdown */
@@ -61,7 +60,7 @@
 }
 .CodeMirror .cm-header {
   line-height: 2em !important; /* extra space above and below headers */
-  color: #569CD6FC !important;
+  color: var(--sn-stylekit-info-color) !important;
 }
 .CodeMirror .cm-formatting-header, .CodeMirror .cm-formatting-strong, .CodeMirror .cm-formatting-em {
   opacity: 1 !important; /* pound signs same color as headers */
@@ -71,7 +70,7 @@
 }
 .CodeMirror .cm-header.CodeMirror-selectedtext {
   background: #569CD640 !important;
-  color: #569CD6FC !important;
+  color: var(--sn-stylekit-info-color) !important;
 }
 .CodeMirror-selectedtext {
   background: #569CD640 !important;
@@ -81,11 +80,11 @@
   background: var(--sn-stylekit-background-color) !important; /* want only text highlighted */
 }
 .CodeMirror .cm-link, .CodeMirror .cm-string {
-  color: #569CD6FC !important;
+  color: var(--sn-stylekit-info-color) !important;
 }
 .CodeMirror .cm-link.CodeMirror-selectedtext, .CodeMirror .cm-string.CodeMirror-selectedtext {
   background: #569CD640 !important;
-  color: #569CD6FC !important;
+  color: var(--sn-stylekit-info-color) !important;
 }
 .editor-toolbar button {
   color: var(--sn-stylekit-foreground-color) !important;
@@ -96,10 +95,10 @@
 
 /* markdown preview */
 h1, h2, h3, h4 {
-  color: #569CD6FC !important;
+  color: var(--sn-stylekit-info-color) !important;
 }
 .editor-preview-active a, .editor-preview-active-side a {
-  color: #569CD6FC !important;
+  color: var(--sn-stylekit-info-color) !important;
 }
 ::selection {
   background-color: #569CD640 !important;
