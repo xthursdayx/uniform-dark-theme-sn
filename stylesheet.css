@@ -106,7 +106,7 @@ h1, h2, h3, h4 {
 
 /* notes-column */
 #notes-column {
-  border-left: 1px #424210 solid !important;
+  border-left: 1px solid #42424240 !important;
   border-right: none !important;
 }
 #notes-column .note, .notes .note {
