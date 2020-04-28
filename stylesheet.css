@@ -40,6 +40,7 @@
 
   /* extensions descriptions */
   --sn-stylekit-paragraph-text-color: var(--sn-stylekit-foreground-col);
+  --sn-stylekit-info-color: #CE9178;
 
 
 }
