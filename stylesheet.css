@@ -92,7 +92,7 @@
   text-decoration: underline !important;
 }
 .cm-formatting.cm-formatting-link.cm-link {
-  color: var(--sn-stylekit-foreground-color) !important; /* brackets of links */
+  color: var(--sn-stylekit-info-color) !important; /* brackets of links */
 }
     color: blue !important;
 ">[</span>
