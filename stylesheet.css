@@ -57,7 +57,7 @@
 .CodeMirror {
   font-family: var(--sn-stylekit-monospace-font) !important;
   font-size: 18px !important;
-  padding-top: none !important;
+  padding-top: unset !important;
 }
 .CodeMirror .cm-header {
   line-height: 2em !important; /* extra space above and below headers */
