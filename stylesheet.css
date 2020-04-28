@@ -30,7 +30,7 @@
   --sn-stylekit-shadow-color: #000000FC;
 
   /* borders */
-  --sn-stylekit-border-color: #000000FC;
+  --sn-stylekit-border-color: #424242FC;
   --sn-stylekit-secondary-border-color: var(--sn-stylekit-border-color);
   --sn-stylekit-contrast-border-color: var(--sn-stylekit-border-color);
   --sn-stylekit-secondary-contrast-border-color: var(--sn-stylekit-border-color);
@@ -106,7 +106,7 @@ h1, h2, h3, h4 {
 
 /* notes-column */
 #notes-column {
-  border-left: none !important;
+  border-left: 1px #42424280 solid !important;
   border-right: none !important;
 }
 #notes-column .note, .notes .note {
