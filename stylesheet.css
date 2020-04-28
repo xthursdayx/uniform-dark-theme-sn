@@ -126,10 +126,10 @@ h1, h2, h3, h4 {
   border-bottom: none !important;
 }
 #notes-column .note.selected, .notes .note.selected {
-  background-color: #4242429f !important;
+  background-color: #42424280 !important;
 }
 #notes-column .filter-section .filter-bar, .notes .filter-section .filter-bar {
-  background-color: #4242429F !important;
+  background-color: #42424280 !important;
   height: 115% !important; /* correction */
 }
 
