@@ -86,7 +86,6 @@
 }
 .cm-s-easymde .cm-url {
   color: var(--sn-stylekit-info-color) !important;
-  text-decoration: none !important;
 }
 .CodeMirror .cm-link.CodeMirror-selectedtext, .CodeMirror .cm-string.CodeMirror-selectedtext {
   background: #569CD640 !important;
