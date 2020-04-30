@@ -48,6 +48,7 @@
 .editor-content .editable {
   font-family: var(--sn-stylekit-monospace-font) !important; /* overwrites font toggle */
   font-size: 18px !important;
+  font-weight: 300 !important;
 }
 #note-text-editor::selection {
   background-color: #569CD640 !important;
@@ -57,6 +58,7 @@
 .CodeMirror {
   font-family: var(--sn-stylekit-monospace-font) !important;
   font-size: 18px !important;
+  font-weight: 300 !important;
   padding-top: unset !important;
 }
 .CodeMirror .cm-header {
