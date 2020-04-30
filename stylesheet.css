@@ -1,4 +1,4 @@
-/* prerequisite: install Markdown Pro editor */
+/* suggestion: install Markdown Pro editor and No Distraction */
 /* electron or chrome colors slightly off, so appending hex color opacity of fc (99%) */
 
 /* import custom font */
@@ -103,6 +103,9 @@
 }
 .CodeMirror .cm-link.CodeMirror-selectedtext, .CodeMirror .cm-string.CodeMirror-selectedtext {
   color: var(--sn-stylekit-foreground-color) !important
+}
+.cm-strikethrough {
+  color: #FFFFFF40;
 }
 
 /* markdown preview */
