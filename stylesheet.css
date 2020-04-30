@@ -1,5 +1,4 @@
 /* prerequisite: install Markdown Pro editor */
-/* inspired by visual studio code default dark theme */
 /* electron or chrome colors slightly off, so appending hex color opacity of fc (99%) */
 
 /* import custom font */
@@ -119,17 +118,17 @@ h1, h2, h3, h4 {
 
 /* notes-column */
 #notes-column {
-  border-left: none !important;
-  border-right: none !important;
+  border-left: 1px solid #FFFFFF05 !important;
+  border-right: 1px solid #FFFFFF05 !important;
 }
 #notes-column .note, .notes .note {
   border-bottom: none !important;
 }
 #notes-column .note.selected, .notes .note.selected {
-  background-color: #42424240 !important;
+  background-color: #42424240 !important; /* subtle color */
 }
 #notes-column .filter-section .filter-bar, .notes .filter-section .filter-bar {
-  background-color: #42424240 !important;
+  background-color: #42424240 !important; /* subtle color */
   height: 115% !important; /* correction */
 }
 
