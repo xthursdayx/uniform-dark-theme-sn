@@ -118,8 +118,8 @@ h1, h2, h3, h4 {
 
 /* notes-column */
 #notes-column {
-  border-left: 1px solid #00000010 !important;
-  border-right: 1px solid #00000010 !important;
+  border-left: none !important;
+  border-right: none !important;
 }
 #notes-column .note, .notes .note {
   border-bottom: none !important;
@@ -143,7 +143,7 @@ h1, h2, h3, h4 {
 
 /* footer-bar */
 .sn-component .sk-app-bar .sk-app-bar-item.border {
-  border: 1px solid #00000020 !important; /* subtle color */
+  border: 1px solid #00000010 !important; /* subtle color */
 }
 
 ::-webkit-scrollbar-thumb
