@@ -118,8 +118,8 @@ h1, h2, h3, h4 {
 
 /* notes-column */
 #notes-column {
-  border-left: 1px solid #FFFFFF03!important;
-  border-right: 1px solid #FFFFFF03 !important;
+  border-left: 1px solid black !important;
+  border-right: 1px solid black !important;
 }
 #notes-column .note, .notes .note {
   border-bottom: none !important;
@@ -135,10 +135,10 @@ h1, h2, h3, h4 {
 /* notes-column, editor and markdown */
 .sn-component .sk-app-bar.no-edges {
   border-top: 1px solid #FFFFFF08 !important; /* subtle color */
-  border-bottom: 1px solid #00000008 !important; /* subtle color */
+  border-bottom: 1px solid #00000000 !important; /* subtle color */
 }
 .editor-toolbar, .editor-toolbar.fullscreen {
-  border-bottom: 1px solid #00000008 !important; /* subtle color */
+  border-bottom: 1px solid #00000000 !important; /* subtle color */
 }
 
 /* footer-bar */
