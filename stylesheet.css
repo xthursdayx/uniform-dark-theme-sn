@@ -1,8 +1,8 @@
 /* suggestion: install Markdown Pro editor and No Distraction */
 /* electron or chrome colors slightly off, so appending hex color opacity of fc (99%) */
 
-/* import custom font */
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+/* import custom fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&display=swap');
 
 /* base settings */
 :root {
