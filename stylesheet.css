@@ -120,6 +120,9 @@ h1, h2, h3, h4 {
 ::selection {
   background-color: #569CD640 !important;
 }
+del {
+  color: #FFFFFF40 !important;
+}
 
 /* notes-column */
 #notes-column {
