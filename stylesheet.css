@@ -80,7 +80,7 @@
   color: var(--sn-stylekit-foreground-color) !important;
 }
 .CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like {
-  background: var(--sn-stylekit-background-color) !important; /* want only text highlighted */
+  background: #1E1E1EFF !important; /* want only text highlighted */
 }
 .cm-s-easymde .cm-link {
   color: var(--sn-stylekit-foreground-color) !important; /* markdown incorrectly flags some strings as links */
