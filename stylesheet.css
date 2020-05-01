@@ -106,9 +106,6 @@
 .CodeMirror .CodeMirror-code .cm-comment {
   color: var(--sn-stylekit-foreground-color) !important;
 }
-.CodeMirror .cm-link.CodeMirror-selectedtext, .CodeMirror .cm-string.CodeMirror-selectedtext {
-  /* color: var(--sn-stylekit-foreground-color) !important */
-}
 .cm-strikethrough {
   color: #FFFFFF40 !important;
 }
@@ -137,6 +134,7 @@ del {
 }
 #notes-column .note, .notes .note {
   border-bottom: none !important;
+  box-shadow: 0px 8px 16px 0px var(--sn-stylekit-shadow-color) !important;
 }
 #notes-column .note.selected, .notes .note.selected {
   background-color: #42424240 !important; /* subtle color */
