@@ -98,7 +98,7 @@
 }
 .CodeMirror .cm-link.CodeMirror-selectedtext, .CodeMirror .cm-string.CodeMirror-selectedtext {
   background: #569CD640 !important;
-  /* color: var(--sn-stylekit-info-color) !important; */
+  color: var(--sn-stylekit-info-color) !important;
 }
 .editor-toolbar button {
   color: var(--sn-stylekit-foreground-color) !important;
@@ -107,7 +107,7 @@
   color: var(--sn-stylekit-foreground-color) !important;
 }
 .CodeMirror .cm-link.CodeMirror-selectedtext, .CodeMirror .cm-string.CodeMirror-selectedtext {
-  color: var(--sn-stylekit-foreground-color) !important
+  /* color: var(--sn-stylekit-foreground-color) !important */
 }
 .cm-strikethrough {
   color: #FFFFFF40 !important;
