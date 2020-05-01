@@ -134,7 +134,6 @@ del {
 }
 #notes-column .note, .notes .note {
   border-bottom: none !important;
-  box-shadow: 0px 8px 16px 0px var(--sn-stylekit-shadow-color) !important;
 }
 #notes-column .note.selected, .notes .note.selected {
   background-color: #42424240 !important; /* subtle color */
@@ -151,6 +150,7 @@ del {
 }
 .editor-toolbar, .editor-toolbar.fullscreen {
   border-bottom: 1px solid #00000020 !important; /* subtle color */
+  box-shadow: 0px 8px 16px 0px var(--sn-stylekit-shadow-color) !important;
 }
 
 /* footer-bar */
