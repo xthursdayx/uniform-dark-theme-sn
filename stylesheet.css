@@ -145,18 +145,18 @@ del {
 
 /* notes-column, editor and markdown */
 .sn-component .sk-app-bar.no-edges {
-  /* border-top: 1px solid #FFFFFF10 !important; */ /* subtle color */
-  border-top: none !important;
-  border-bottom: 1px solid #00000040 !important; /* subtle color */
+  border-top: 1px solid #FFFFFF10 !important; /* subtle color */
+  /* border-bottom: 1px solid #00000040 !important; */ /* subtle color */
+  border-bottom: none !important;
 }
 .editor-toolbar, .editor-toolbar.fullscreen {
-  border-bottom: 1px solid #00000020 !important; /* subtle color */
-  box-shadow: 10px 8px 16px 5px var(--sn-stylekit-shadow-color) !important;
+  /* border-bottom: 1px solid #00000020 !important; */ /* subtle color */
+  border-bottom: none !important;
 }
 
 /* footer-bar */
 .sn-component .sk-app-bar .sk-app-bar-item.border {
-  border: 1px solid #00000010 !important; /* subtle color */
+  /* border: 1px solid #00000010 !important; */ /* subtle color */
 }
 
 ::-webkit-scrollbar-thumb
