@@ -2,7 +2,7 @@
 /* electron or chrome colors slightly off, so appending hex color opacity of fc (99%) */
 
 /* import custom fonts */
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500;700&display=swap');
 
 /* base settings */
 :root {
@@ -79,7 +79,7 @@
   background: #569CD640 !important;
   /* color: var(--sn-stylekit-foreground-color) !important; */
   color: white !important;
-  font-style: bold !important;
+  font-weight: 500 !important;
 }
 .CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like {
   background: #1E1E1EFF !important; /* want only text highlighted, fixed color */
