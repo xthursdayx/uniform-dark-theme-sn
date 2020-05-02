@@ -113,11 +113,9 @@
 }
 .cm-strikethrough.cm-variable-2.CodeMirror-selectedtext {
   color: white !important;
-  font-weight: 500 !important;
 }
 .cm-formatting.cm-formatting-strikethrough.cm-strikethrough.cm-variable-2.CodeMirror-selectedtext {
   color: white !important;
-  font-weight: 500 !important;
 }
 .cm-formatting.cm-formatting-strong.cm-strong.cm-variable-2.CodeMirror-selectedtext {
   font-weight: 700 !important;
@@ -126,7 +124,7 @@
   font-weight: 700 !important;
 }
 .CodeMirror .cm-formatting-list-ol {
-  font-weight: normal !important;
+  font-weight: unset !important;
 }
 
 /* markdown preview */
