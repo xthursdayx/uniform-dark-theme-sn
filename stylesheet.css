@@ -72,12 +72,12 @@
   overflow-x: hidden !important; /* Hide horizontal scrollbar */
 }
 .CodeMirror .cm-header.CodeMirror-selectedtext {
-  background: #569CD640 !important;
-  color: var(--sn-stylekit-info-color) !important;
+  background: #569CD680 !important;
+  color: white !important;
+  font-weight: 500 !important;
 }
 .CodeMirror-selectedtext {
   background: #569CD680 !important;
-  /* color: var(--sn-stylekit-foreground-color) !important; */
   color: white !important;
   font-weight: 500 !important;
 }
@@ -92,15 +92,16 @@
   color: var(--sn-stylekit-foreground-color) !important; /* markdown incorrectly flags some strings as links */
 }
 .CodeMirror .cm-link.cm-variable-2.CodeMirror-selectedtext, .CodeMirror .cm-url.cm-variable-2.CodeMirror-selectedtext {
-  background: #569CD640 !important;
+  background: #569CD680 !important;
 }
 .cm-s-easymde .cm-url {
   color: var(--sn-stylekit-info-color) !important;
   text-decoration: underline !important;
 }
 .CodeMirror .cm-link.CodeMirror-selectedtext, .CodeMirror .cm-string.CodeMirror-selectedtext {
-  background: #569CD640 !important;
-  color: var(--sn-stylekit-info-color) !important;
+  background: #569CD680 !important;
+  color: white !important;
+  font-weight: 500 !important;
 }
 .editor-toolbar button {
   color: var(--sn-stylekit-foreground-color) !important;
