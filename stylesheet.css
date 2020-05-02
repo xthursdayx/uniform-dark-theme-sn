@@ -76,7 +76,7 @@
   color: var(--sn-stylekit-info-color) !important;
 }
 .CodeMirror-selectedtext {
-  background: #569CD640 !important;
+  background: #569CD680 !important;
   /* color: var(--sn-stylekit-foreground-color) !important; */
   color: white !important;
   font-weight: 500 !important;
