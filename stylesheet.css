@@ -77,8 +77,9 @@
 }
 .CodeMirror-selectedtext {
   /* background: #569CD640 !important; */
-  background: #FFFFFF80 !important;
-  color: var(--sn-stylekit-foreground-color) !important;
+  background: #FFFFFF40 !important;
+  /* color: var(--sn-stylekit-foreground-color) !important; */
+  color: white !important;
 }
 .CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like {
   background: #1E1E1EFF !important; /* want only text highlighted, fixed color */
