@@ -113,9 +113,11 @@
 }
 .cm-strikethrough.cm-variable-2.CodeMirror-selectedtext {
   color: white !important;
+  font-weight: 300 !important;
 }
 .cm-formatting.cm-formatting-strikethrough.cm-strikethrough.cm-variable-2.CodeMirror-selectedtext {
   color: white !important;
+  font-weight: 300 !important;
 }
 .cm-formatting.cm-formatting-strong.cm-strong.cm-variable-2.CodeMirror-selectedtext {
   font-weight: 700 !important;
