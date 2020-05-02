@@ -2,7 +2,7 @@
 /* electron or chrome colors slightly off, so appending hex color opacity of fc (99%) */
 
 /* import custom fonts */
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500;700&display=swap');
 
 /* base settings */
 :root {
@@ -78,7 +78,7 @@
 .CodeMirror-selectedtext {
   background: #569CD680 !important;
   color: white !important;
-  font-weight: 700 !important;
+  font-weight: 500 !important;
 }
 .CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like {
   background: #1E1E1EFF !important; /* want only text highlighted, fixed color */
@@ -100,7 +100,7 @@
 .CodeMirror .cm-link.CodeMirror-selectedtext, .CodeMirror .cm-string.CodeMirror-selectedtext {
   background: #569CD680 !important;
   color: white !important;
-  font-weight: 700 !important;
+  font-weight: 500 !important;
 }
 .editor-toolbar button {
   color: var(--sn-stylekit-foreground-color) !important;
@@ -113,11 +113,11 @@
 }
 .cm-strikethrough.cm-variable-2.CodeMirror-selectedtext {
   color: white !important;
-  font-weight: 700 !important;
+  font-weight: 500 !important;
 }
 .cm-formatting.cm-formatting-strikethrough.cm-strikethrough.cm-variable-2.CodeMirror-selectedtext {
   color: white !important;
-  font-weight: 700 !important;
+  font-weight: 500 !important;
 }
 .cm-formatting.cm-formatting-strong.cm-strong.cm-variable-2.CodeMirror-selectedtext {
   font-weight: 700 !important;
