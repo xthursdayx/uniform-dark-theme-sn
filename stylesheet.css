@@ -74,6 +74,7 @@
 .CodeMirror .cm-header.CodeMirror-selectedtext {
   background: #569CD680 !important;
   color: white !important;
+  font-weight: 700 !important;
 }
 .CodeMirror-selectedtext {
   background: #569CD680 !important;
@@ -112,11 +113,11 @@
   color: #FFFFFF20 !important;
 }
 .cm-strikethrough.cm-variable-2.CodeMirror-selectedtext {
-  color: white !important;
+  color: #FFFFFFBF !important;
   font-weight: 300 !important;
 }
 .cm-formatting.cm-formatting-strikethrough.cm-strikethrough.cm-variable-2.CodeMirror-selectedtext {
-  color: white !important;
+  color: #FFFFFFBF !important;
   font-weight: 300 !important;
 }
 .cm-formatting.cm-formatting-strong.cm-strong.cm-variable-2.CodeMirror-selectedtext {
