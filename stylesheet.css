@@ -76,7 +76,8 @@
   color: var(--sn-stylekit-info-color) !important;
 }
 .CodeMirror-selectedtext {
-  background: #569CD640 !important;
+  /* background: #569CD640 !important; */
+  background: #FFFFFF80 !important;
   color: var(--sn-stylekit-foreground-color) !important;
 }
 .CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like {
@@ -107,7 +108,7 @@
   color: var(--sn-stylekit-foreground-color) !important;
 }
 .cm-strikethrough {
-  color: #FFFFFF40 !important;
+  color: #FFFFFF20 !important;
 }
 .CodeMirror .cm-formatting-list-ol {
   font-weight: normal !important;
