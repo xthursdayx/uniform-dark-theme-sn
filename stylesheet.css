@@ -79,6 +79,7 @@
   background: #569CD640 !important;
   /* color: var(--sn-stylekit-foreground-color) !important; */
   color: white !important;
+  font-style: bold !important;
 }
 .CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like {
   background: #1E1E1EFF !important; /* want only text highlighted, fixed color */
