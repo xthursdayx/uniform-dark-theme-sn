@@ -51,7 +51,7 @@
   font-weight: 300 !important;
 }
 #note-text-editor::selection {
-  background-color: #569CD640 !important;
+  background-color: #FFFFFF40 !important;
 }
 
 /* markdown */
@@ -77,7 +77,7 @@
   font-weight: 700 !important;
 }
 .CodeMirror-selectedtext {
-  background: #569CD680 !important;
+  background: #FFFFFF40 !important;
   color: white !important;
   font-weight: 500 !important;
 }
@@ -92,14 +92,14 @@
   color: var(--sn-stylekit-foreground-color) !important; /* markdown incorrectly flags some strings as links */
 }
 .CodeMirror .cm-link.cm-variable-2.CodeMirror-selectedtext, .CodeMirror .cm-url.cm-variable-2.CodeMirror-selectedtext {
-  background: #569CD680 !important;
+  background: #FFFFFF40 !important;
 }
 .cm-s-easymde .cm-url {
   color: var(--sn-stylekit-info-color) !important;
   text-decoration: underline !important;
 }
 .CodeMirror .cm-link.CodeMirror-selectedtext, .CodeMirror .cm-string.CodeMirror-selectedtext {
-  background: #569CD680 !important;
+  background: #FFFFFF40 !important;
   color: white !important;
   font-weight: 500 !important;
 }
@@ -138,7 +138,7 @@ h1, h2, h3, h4 {
   color: var(--sn-stylekit-info-color) !important;
 }
 ::selection {
-  background-color: #569CD640 !important;
+  background-color: #FFFFFF40 !important;
 }
 del {
   color: #FFFFFF40 !important;
