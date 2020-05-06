@@ -53,6 +53,7 @@
 #note-text-editor::selection {
   background-color: #FFFF00FF !important;
   color: #000000FC !important;
+  font-weight: 500 !important;
 }
 
 /* markdown */
@@ -142,6 +143,7 @@ h1, h2, h3, h4 {
 ::selection {
   background-color: #FFFF00FF !important;
   color: #000000FC !important;
+  font-weight: 500 !important;
 }
 del {
   color: #FFFFFF40 !important;
@@ -156,8 +158,7 @@ del {
   border-bottom: none !important;
 }
 #notes-column .note.selected, .notes .note.selected {
-  background-color: #FFFF00FF !important; /* subtle color */
-  color: #000000FC !important;
+  background-color: #42424240 !important; /* subtle color */
 }
 #notes-column .filter-section .filter-bar, .notes .filter-section .filter-bar {
   background-color: #42424240 !important; /* subtle color */
