@@ -51,7 +51,8 @@
   font-weight: 300 !important;
 }
 #note-text-editor::selection {
-  background-color: #FFFFFF40 !important;
+  background-color: #FFFF00FF !important;
+  color: #000000FC !important;
 }
 
 /* markdown */
@@ -72,13 +73,13 @@
   overflow-x: hidden !important; /* Hide horizontal scrollbar */
 }
 .CodeMirror .cm-header.CodeMirror-selectedtext {
-  background: #FFFFFF40 !important;
-  color: white !important;
+  background: #FFFF00FF !important;
+  color: #000000FC !important;
   font-weight: 700 !important;
 }
 .CodeMirror-selectedtext {
-  background: #FFFFFF40 !important;
-  color: white !important;
+  background: #FFFF00FF !important;
+  color: #000000FC !important;
   font-weight: 500 !important;
 }
 .CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like {
@@ -92,15 +93,16 @@
   color: var(--sn-stylekit-foreground-color) !important; /* markdown incorrectly flags some strings as links */
 }
 .CodeMirror .cm-link.cm-variable-2.CodeMirror-selectedtext, .CodeMirror .cm-url.cm-variable-2.CodeMirror-selectedtext {
-  background: #FFFFFF40 !important;
+  background: #FFFF00FF !important;
+  color: #000000FC !important;
 }
 .cm-s-easymde .cm-url {
   color: var(--sn-stylekit-info-color) !important;
   text-decoration: underline !important;
 }
 .CodeMirror .cm-link.CodeMirror-selectedtext, .CodeMirror .cm-string.CodeMirror-selectedtext {
-  background: #FFFFFF40 !important;
-  color: white !important;
+  background: #FFFF00FF !important;
+  color: #000000FC !important;
   font-weight: 500 !important;
 }
 .editor-toolbar button {
@@ -113,11 +115,11 @@
   color: #FFFFFF20 !important;
 }
 .cm-strikethrough.cm-variable-2.CodeMirror-selectedtext {
-  color: #FFFFFFBF !important;
+  color: #000000FC !important;
   font-weight: 300 !important;
 }
 .cm-formatting.cm-formatting-strikethrough.cm-strikethrough.cm-variable-2.CodeMirror-selectedtext {
-  color: #FFFFFFBF !important;
+  color: #000000FC !important;
   font-weight: 300 !important;
 }
 .cm-formatting.cm-formatting-strong.cm-strong.cm-variable-2.CodeMirror-selectedtext {
@@ -138,7 +140,8 @@ h1, h2, h3, h4 {
   color: var(--sn-stylekit-info-color) !important;
 }
 ::selection {
-  background-color: #FFFFFF40 !important;
+  background-color: #FFFF00FF !important;
+  color: #000000FC !important;
 }
 del {
   color: #FFFFFF40 !important;
@@ -153,7 +156,8 @@ del {
   border-bottom: none !important;
 }
 #notes-column .note.selected, .notes .note.selected {
-  background-color: #42424240 !important; /* subtle color */
+  background-color: #FFFF00FF !important; /* subtle color */
+  color: #000000FC !important;
 }
 #notes-column .filter-section .filter-bar, .notes .filter-section .filter-bar {
   background-color: #42424240 !important; /* subtle color */
