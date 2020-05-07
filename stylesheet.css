@@ -30,7 +30,7 @@
   --sn-stylekit-shadow-color: #000000FC;
 
   /* borders */
-  --sn-stylekit-border-color: #424242FC;
+  --sn-stylekit-border-color: #414141FC;
   --sn-stylekit-secondary-border-color: var(--sn-stylekit-border-color);
   --sn-stylekit-contrast-border-color: var(--sn-stylekit-border-color);
   --sn-stylekit-secondary-contrast-border-color: var(--sn-stylekit-border-color);
