@@ -145,7 +145,7 @@ h1, h2, h3, h4 {
 del {
   color: #FFFFFF40 !important;
 }
-del::selection {
+s::selection, strike::selection {
   color: #000000FC !important;
 }
 
