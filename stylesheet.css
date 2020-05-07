@@ -2,7 +2,7 @@
 /* electron or chrome colors slightly off, so appending hex color opacity of fc (99%) */
 
 /* import custom fonts */
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;700&display=swap');
 
 /* base settings */
 :root {
@@ -11,8 +11,8 @@
   --sn-stylekit-monospace-font: 'Fira Code', monospace; /* includes ligatures */
 
   /* notes-column, editor and markdown */
-  --sn-stylekit-background-color: #1E1E1EFC;
-  --sn-stylekit-foreground-color: #D4D4D4FC;
+  --sn-stylekit-background-color: #1e1e1efc;
+  --sn-stylekit-foreground-color: #d4d4d4fc;
 
   /* tags-content */
   --sn-stylekit-secondary-background-color: var(--sn-stylekit-background-color);
@@ -27,10 +27,10 @@
   --sn-stylekit-secondary-contrast-foreground-color: var(--sn-stylekit-foreground-color);
 
   /* shadow */
-  --sn-stylekit-shadow-color: #000000FC;
+  --sn-stylekit-shadow-color: #000000fc;
 
   /* borders */
-  --sn-stylekit-border-color: #414141FC;
+  --sn-stylekit-border-color: #414141fc;
   --sn-stylekit-secondary-border-color: var(--sn-stylekit-border-color);
   --sn-stylekit-contrast-border-color: var(--sn-stylekit-border-color);
   --sn-stylekit-secondary-contrast-border-color: var(--sn-stylekit-border-color);
@@ -39,8 +39,8 @@
   --sn-stylekit-scrollbar-thumb-color: var(--sn-stylekit-border-color);
 
   /* extensions info and descriptions */
-  --sn-stylekit-info-color: #569CD6FC;
-  --sn-stylekit-paragraph-text-color: #6B6B6BFC;
+  --sn-stylekit-info-color: #569cd6fc;
+  --sn-stylekit-paragraph-text-color: #6b6b6bfc;
 
 }
 
@@ -69,16 +69,16 @@
   overflow-x: hidden !important; /* Hide horizontal scrollbar */
 }
 .CodeMirror .cm-header.CodeMirror-selectedtext {
-  background: #FFFF00FF !important;
-  color: #000000FC !important;
+  background: #ffff00 !important;
+  color: #000000fc !important;
   font-weight: 700 !important;
 }
 .CodeMirror-selectedtext {
-  background: #FFFF00FF !important;
-  color: #000000FC !important;
+  background: #ffff00 !important;
+  color: #000000fc !important;
 }
 .CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like {
-  background: #1E1E1EFF !important; /* want only text highlighted, fixed color */
+  background: #1e1e1e !important; /* want only text highlighted, fixed color */
 }
 .cm-s-easymde .cm-link {
   color: var(--sn-stylekit-foreground-color) !important; /* markdown incorrectly flags some strings as links */
@@ -88,16 +88,16 @@
   color: var(--sn-stylekit-foreground-color) !important; /* markdown incorrectly flags some strings as links */
 }
 .CodeMirror .cm-link.cm-variable-2.CodeMirror-selectedtext, .CodeMirror .cm-url.cm-variable-2.CodeMirror-selectedtext {
-  background: #FFFF00FF !important;
-  color: #000000FC !important;
+  background: #ffff00 !important;
+  color: #000000fc !important;
 }
 .cm-s-easymde .cm-url {
   color: var(--sn-stylekit-info-color) !important;
   text-decoration: underline !important;
 }
 .CodeMirror .cm-link.CodeMirror-selectedtext, .CodeMirror .cm-string.CodeMirror-selectedtext {
-  background: #FFFF00FF !important;
-  color: #000000FC !important;
+  background: #ffff00 !important;
+  color: #000000fc !important;
 }
 .editor-toolbar button {
   color: var(--sn-stylekit-foreground-color) !important;
@@ -106,7 +106,7 @@
   color: var(--sn-stylekit-foreground-color) !important;
 }
 .cm-strikethrough {
-  color: #FFFFFF20 !important;
+  color: #ffffff20 !important;
 }
 .cm-strikethrough.cm-variable-2.CodeMirror-selectedtext {
   color: #00000060 !important;
@@ -134,11 +134,11 @@ h1, h2, h3, h4 {
 
 /* plain editor and markdown preview */
 ::selection {
-  background-color: #FFFF00FF !important;
-  color: #000000FC !important;
+  background-color: #ffff00 !important;
+  color: #000000fc !important;
 }
 del {
-  color: #FFFFFF40 !important;
+  color: #ffffff40 !important;
 }
 
 /* notes-column */
@@ -150,16 +150,16 @@ del {
   border-bottom: none !important;
 }
 #notes-column .note.selected, .notes .note.selected {
-  background-color: #42424240 !important; /* subtle color */
+  background-color: #41414140 !important; /* subtle color */
 }
 #notes-column .filter-section .filter-bar, .notes .filter-section .filter-bar {
-  background-color: #42424240 !important; /* subtle color */
+  background-color: #41414140 !important; /* subtle color */
   height: 115% !important; /* correction */
 }
 
 /* notes-column, editor and markdown */
 .sn-component .sk-app-bar.no-edges {
-  border-top: 1px solid #414141FC !important; /* subtle color */
+  border-top: 1px solid #414141fc !important; /* subtle color */
   border-bottom: none !important;
 }
 .editor-toolbar, .editor-toolbar.fullscreen {
