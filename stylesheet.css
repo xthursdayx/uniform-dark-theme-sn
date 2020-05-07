@@ -159,7 +159,7 @@ del {
 
 /* notes-column, editor and markdown */
 .sn-component .sk-app-bar.no-edges {
-  border-top: 1px solid #FFFFFF10 !important; /* subtle color */
+  border-top: 1px solid #414141FC !important; /* subtle color */
   border-bottom: none !important;
 }
 .editor-toolbar, .editor-toolbar.fullscreen {
