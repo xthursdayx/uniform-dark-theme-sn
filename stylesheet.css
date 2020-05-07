@@ -76,7 +76,6 @@
 .CodeMirror-selectedtext {
   background: #FFFF00FF !important;
   color: #000000FC !important;
-  /* font-weight: 500 !important; */
 }
 .CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like {
   background: #1E1E1EFF !important; /* want only text highlighted, fixed color */
@@ -99,7 +98,6 @@
 .CodeMirror .cm-link.CodeMirror-selectedtext, .CodeMirror .cm-string.CodeMirror-selectedtext {
   background: #FFFF00FF !important;
   color: #000000FC !important;
-  /* font-weight: 500 !important; */
 }
 .editor-toolbar button {
   color: var(--sn-stylekit-foreground-color) !important;
@@ -111,12 +109,10 @@
   color: #FFFFFF20 !important;
 }
 .cm-strikethrough.cm-variable-2.CodeMirror-selectedtext {
-  color: #000000FC !important;
-  /* font-weight: 300 !important; */
+  color: #000000BF !important;
 }
 .cm-strikethrough.CodeMirror-selectedtext {
-  color: #000000FC !important;
-  /* font-weight: 300 !important; */
+  color: #000000BF !important;
 }
 .cm-formatting.cm-formatting-strong.cm-strong.cm-variable-2.CodeMirror-selectedtext {
   font-weight: 700 !important;
@@ -140,7 +136,6 @@ h1, h2, h3, h4 {
 ::selection {
   background-color: #FFFF00FF !important;
   color: #000000FC !important;
-  /* font-weight: 500 !important; <-- won't work in plain editor and markdown preview */
 }
 del {
   color: #FFFFFF40 !important;
