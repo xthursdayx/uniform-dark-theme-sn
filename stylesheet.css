@@ -114,16 +114,10 @@
   color: #000000FC !important;
   font-weight: 300 !important;
 }
-
-/* .cm-formatting.cm-formatting-strikethrough.cm-strikethrough.CodeMirror-selectedtext {
-  color: #000000FC !important;
-  font-weight: 300 !important;
-} */
 .cm-strikethrough.CodeMirror-selectedtext {
   color: #000000FC !important;
   font-weight: 300 !important;
 }
-
 .cm-formatting.cm-formatting-strong.cm-strong.cm-variable-2.CodeMirror-selectedtext {
   font-weight: 700 !important;
 }
@@ -150,6 +144,9 @@ h1, h2, h3, h4 {
 }
 del {
   color: #FFFFFF40 !important;
+}
+del::selection {
+  color: #000000FC !important;
 }
 
 /* notes-column */
