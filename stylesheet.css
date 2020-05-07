@@ -76,7 +76,7 @@
 .CodeMirror-selectedtext {
   background: #FFFF00FF !important;
   color: #000000FC !important;
-  font-weight: 500 !important;
+  /* font-weight: 500 !important; */
 }
 .CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like {
   background: #1E1E1EFF !important; /* want only text highlighted, fixed color */
@@ -112,11 +112,11 @@
 }
 .cm-strikethrough.cm-variable-2.CodeMirror-selectedtext {
   color: #000000FC !important;
-  font-weight: 300 !important;
+  /* font-weight: 300 !important; */
 }
 .cm-strikethrough.CodeMirror-selectedtext {
   color: #000000FC !important;
-  font-weight: 300 !important;
+  /* font-weight: 300 !important; */
 }
 .cm-formatting.cm-formatting-strong.cm-strong.cm-variable-2.CodeMirror-selectedtext {
   font-weight: 700 !important;
@@ -144,12 +144,6 @@ h1, h2, h3, h4 {
 }
 del {
   color: #FFFFFF40 !important;
-}
-s::selection {
-  color: #000000FC !important;
-}
-strike::selection {
-  color: #000000FC !important;
 }
 
 /* notes-column */
