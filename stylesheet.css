@@ -115,10 +115,10 @@
   font-weight: 300 !important;
 }
 
-.cm-formatting.cm-formatting-strikethrough.cm-strikethrough.CodeMirror-selectedtext {
+/* .cm-formatting.cm-formatting-strikethrough.cm-strikethrough.CodeMirror-selectedtext {
   color: #000000FC !important;
   font-weight: 300 !important;
-}
+} */
 .cm-strikethrough.CodeMirror-selectedtext {
   color: #000000FC !important;
   font-weight: 300 !important;
