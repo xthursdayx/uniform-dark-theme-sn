@@ -109,10 +109,10 @@
   color: #FFFFFF20 !important;
 }
 .cm-strikethrough.cm-variable-2.CodeMirror-selectedtext {
-  color: #00000040 !important;
+  color: #00000060 !important;
 }
 .cm-strikethrough.CodeMirror-selectedtext {
-  color: #00000040 !important;
+  color: #00000060 !important;
 }
 .cm-formatting.cm-formatting-strong.cm-strong.cm-variable-2.CodeMirror-selectedtext {
   font-weight: 700 !important;
