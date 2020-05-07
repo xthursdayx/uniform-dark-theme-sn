@@ -44,16 +44,11 @@
 
 }
 
-/* editor */
+/* plain editor */
 .editor-content .editable {
   font-family: var(--sn-stylekit-monospace-font) !important; /* overwrites font toggle */
   font-size: 18px !important;
-  font-weight: 300 !important;
-}
-#note-text-editor::selection {
-  background-color: #FFFF00FF !important;
-  color: #000000FC !important;
-  font-weight: 500 !important;
+  /* font-weight: 300 !important; */
 }
 
 /* markdown */
@@ -140,10 +135,12 @@ h1, h2, h3, h4 {
 .editor-preview-active a, .editor-preview-active-side a {
   color: var(--sn-stylekit-info-color) !important;
 }
+
+/* plain editor and markdown preview */
 ::selection {
   background-color: #FFFF00FF !important;
   color: #000000FC !important;
-  font-weight: 500 !important;
+  /* font-weight: 500 !important; <-- won't work in plain editor and markdown preview */
 }
 del {
   color: #FFFFFF40 !important;
