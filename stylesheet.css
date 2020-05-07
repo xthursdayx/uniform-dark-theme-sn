@@ -99,7 +99,7 @@
 .CodeMirror .cm-link.CodeMirror-selectedtext, .CodeMirror .cm-string.CodeMirror-selectedtext {
   background: #FFFF00FF !important;
   color: #000000FC !important;
-  font-weight: 500 !important;
+  /* font-weight: 500 !important; */
 }
 .editor-toolbar button {
   color: var(--sn-stylekit-foreground-color) !important;
@@ -114,10 +114,10 @@
   color: #000000FC !important;
   font-weight: 300 !important;
 }
-.cm-formatting.cm-formatting-strikethrough.cm-strikethrough.cm-variable-2.CodeMirror-selectedtext {
+/* .cm-formatting.cm-formatting-strikethrough.cm-strikethrough.cm-variable-2.CodeMirror-selectedtext {
   color: #000000FC !important;
   font-weight: 300 !important;
-}
+} */
 .cm-formatting.cm-formatting-strong.cm-strong.cm-variable-2.CodeMirror-selectedtext {
   font-weight: 700 !important;
 }
