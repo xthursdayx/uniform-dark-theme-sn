@@ -69,13 +69,13 @@
   overflow-x: hidden !important; /* Hide horizontal scrollbar */
 }
 .CodeMirror .cm-header.CodeMirror-selectedtext {
-  background: #ffff00 !important;
-  color: #000000fc !important;
+  background: var(--sn-stylekit-info-color) !important;
+  color: #ffffffff !important;
   font-weight: 700 !important;
 }
 .CodeMirror-selectedtext {
-  background: #ffff00 !important;
-  color: #000000fc !important;
+  background: var(--sn-stylekit-info-color) !important;
+  /* color: #000000fc !important; */
 }
 .CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like {
   background: #1e1e1e !important; /* want only text highlighted, fixed color */
@@ -88,16 +88,16 @@
   color: var(--sn-stylekit-foreground-color) !important; /* markdown incorrectly flags some strings as links */
 }
 .CodeMirror .cm-link.cm-variable-2.CodeMirror-selectedtext, .CodeMirror .cm-url.cm-variable-2.CodeMirror-selectedtext {
-  background: #ffff00 !important;
-  color: #000000fc !important;
+  background: var(--sn-stylekit-info-color) !important;
+  /* color: #000000fc !important; */
 }
 .cm-s-easymde .cm-url {
   color: var(--sn-stylekit-info-color) !important;
   text-decoration: underline !important;
 }
 .CodeMirror .cm-link.CodeMirror-selectedtext, .CodeMirror .cm-string.CodeMirror-selectedtext {
-  background: #ffff00 !important;
-  color: #000000fc !important;
+  background: var(--sn-stylekit-info-color) !important;
+  /* color: #000000fc !important; */
 }
 .editor-toolbar button {
   color: var(--sn-stylekit-foreground-color) !important;
@@ -109,10 +109,10 @@
   color: #ffffff20 !important;
 }
 .cm-strikethrough.cm-variable-2.CodeMirror-selectedtext {
-  color: #00000060 !important;
+  /* color: #00000060 !important; */
 }
 .cm-strikethrough.CodeMirror-selectedtext {
-  color: #00000060 !important;
+  /* color: #00000060 !important; */
 }
 .cm-formatting.cm-formatting-strong.cm-strong.cm-variable-2.CodeMirror-selectedtext {
   font-weight: 700 !important;
@@ -134,8 +134,8 @@ h1, h2, h3, h4 {
 
 /* plain editor and markdown preview */
 ::selection {
-  background-color: #ffff00 !important;
-  color: #000000fc !important;
+  background-color: var(--sn-stylekit-info-color) !important;
+  /* color: #000000fc !important; */
 }
 del {
   color: #ffffff40 !important;
