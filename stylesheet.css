@@ -48,7 +48,6 @@
 .editor-content .editable {
   font-family: var(--sn-stylekit-monospace-font) !important; /* overwrites font toggle */
   font-size: 18px !important;
-  /* font-weight: 300 !important; */
 }
 
 /* markdown */
@@ -70,12 +69,11 @@
 }
 .CodeMirror .cm-header.CodeMirror-selectedtext {
   background: var(--sn-stylekit-info-color) !important;
-  color: #ffffffff !important;
+  color: var(--sn-stylekit-foreground-color) !important;
   font-weight: 700 !important;
 }
 .CodeMirror-selectedtext {
   background: var(--sn-stylekit-info-color) !important;
-  /* color: #000000fc !important; */
 }
 .CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like {
   background: #1e1e1e !important; /* want only text highlighted, fixed color */
@@ -89,7 +87,6 @@
 }
 .CodeMirror .cm-link.cm-variable-2.CodeMirror-selectedtext, .CodeMirror .cm-url.cm-variable-2.CodeMirror-selectedtext {
   background: var(--sn-stylekit-info-color) !important;
-  /* color: #000000fc !important; */
 }
 .cm-s-easymde .cm-url {
   color: var(--sn-stylekit-info-color) !important;
@@ -97,7 +94,6 @@
 }
 .CodeMirror .cm-link.CodeMirror-selectedtext, .CodeMirror .cm-string.CodeMirror-selectedtext {
   background: var(--sn-stylekit-info-color) !important;
-  /* color: #000000fc !important; */
 }
 .editor-toolbar button {
   color: var(--sn-stylekit-foreground-color) !important;
@@ -125,9 +121,9 @@
 }
 
 /* markdown preview */
-h1, h2, h3, h4 {
+/* h1, h2, h3, h4 {
   color: var(--sn-stylekit-info-color) !important;
-}
+} */
 .editor-preview-active a, .editor-preview-active-side a {
   color: var(--sn-stylekit-info-color) !important;
 }
@@ -135,7 +131,6 @@ h1, h2, h3, h4 {
 /* plain editor and markdown preview */
 ::selection {
   background-color: var(--sn-stylekit-info-color) !important;
-  /* color: #000000fc !important; */
 }
 del {
   color: #ffffff40 !important;
