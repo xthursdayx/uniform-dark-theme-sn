@@ -124,9 +124,9 @@
 /* h1, h2, h3, h4 {
   color: var(--sn-stylekit-info-color) !important;
 } */
-/* .editor-preview-active a, .editor-preview-active-side a {
-  color: var(--sn-stylekit-info-color) !important;
-} */
+.editor-preview-active a, .editor-preview-active-side a {
+  color: var(--sn-stylekit-foreground-color) !important;
+}
 
 /* plain editor and markdown preview */
 ::selection {
