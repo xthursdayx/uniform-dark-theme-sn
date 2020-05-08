@@ -75,6 +75,7 @@
 .CodeMirror-selectedtext {
   background: var(--sn-stylekit-info-color) !important;
   color: #ffffffff !important;
+  font-weight: 500 !important;
 }
 .CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like {
   background: #1e1e1e !important; /* want only text highlighted, fixed color */
@@ -129,6 +130,8 @@
 /* plain editor and markdown preview */
 ::selection {
   background-color: var(--sn-stylekit-info-color) !important;
+  color: #ffffffff !important;
+  font-weight: 500 !important;
 }
 del {
   color: #ffffff20 !important;
