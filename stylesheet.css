@@ -118,6 +118,15 @@
 .cm-strong.cm-variable-2.CodeMirror-selectedtext {
   font-weight: 700 !important;
 }
+.cm-strong.CodeMirror-selectedtext {
+  font-weight: 700 !important;
+}
+.cm-strong.cm-link.CodeMirror-selectedtext {
+  font-weight: 700 !important;
+}
+.cm-formatting.cm-formatting-strong.cm-strong.CodeMirror-selectedtext {
+  font-weight: 700 !important;
+}
 .CodeMirror .cm-formatting-list-ol {
   font-weight: unset !important;
 }
