@@ -131,7 +131,7 @@
 ::selection {
   background-color: var(--sn-stylekit-info-color) !important;
   color: #ffffffff !important;
-  font-weight: 500 !important;
+  /* font-weight: 500 !important; doesn't work */
 }
 del {
   color: #ffffff20 !important;
