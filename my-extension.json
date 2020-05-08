@@ -1,16 +1,12 @@
----
-metatype: json
----
-
 {
-  "identifier": "saegl5.uniform-dark-theme-standard-notes",
-  "name": "Uniform Dark Theme Standard Notes",
+  "identifier": "saegl5.uniform-dark-theme",
+  "name": "Uniform Dark Theme",
   "content_type": "SN|Theme",
   "area": "themes",
   "version": "1.0.0",
   "description": "Dark color theme that is unified.",
-  "url": "https://gitlab.com/saegl5/uniform-dark-theme-standard-notes/-/raw/master/stylesheet.css",
-  "download_url": "https://gitlab.com/saegl5/uniform-dark-theme-standard-notes/-/archive/test/uniform-dark-theme-standard-notes-test.zip",
+  "url": "https://gitlab.com/dark-themes/uniform-dark-theme-sn/-/raw/master/stylesheet.css",
+  "download_url": "https://gitlab.com/dark-themes/uniform-dark-theme-sn/-/archive/test/uniform-dark-theme-sn-test.zip",
   "latest_url": "https://listed.to/p/shF0UFQe2O",
   "marketing_url": "https://gitlab.com/saegl5/uniform-dark-theme-standard-notes/",
   "thumbnail_url": "https://domain.org/editors/adv-markdown.jpg"
