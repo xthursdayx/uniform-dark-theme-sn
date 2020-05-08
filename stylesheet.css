@@ -2,7 +2,7 @@
 /* electron or chrome colors slightly off, so appending hex color opacity of fc (99%) */
 
 /* import custom fonts */
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&display=swap');
 
 /* base settings */
 :root {
@@ -75,7 +75,7 @@
 .CodeMirror-selectedtext {
   background: var(--sn-stylekit-info-color) !important;
   color: #ffffffff !important;
-  font-weight: 500 !important;
+  font-weight: 400 !important;
 }
 .CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like {
   background: #1e1e1e !important; /* want only text highlighted, fixed color */
@@ -131,7 +131,7 @@
 ::selection {
   background-color: var(--sn-stylekit-info-color) !important;
   color: #ffffffff !important;
-  /* font-weight: 500 !important; doesn't work */
+  /* font-weight: 400 !important; doesn't work */
 }
 del {
   color: #ffffff20 !important;
