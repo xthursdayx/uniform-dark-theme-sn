@@ -1,3 +1,7 @@
+---
+metatype: json
+---
+
 {
   "identifier": "saegl5.uniform-dark-theme",
   "name": "Uniform Dark Theme",
@@ -5,8 +9,8 @@
   "area": "themes",
   "version": "1.0.0",
   "description": "Dark color theme that is unified.",
-  "url": "https://gitlab.com/dark-themes/uniform-dark-theme-sn/-/raw/master/stylesheet.css",
-  "download_url": "https://gitlab.com/dark-themes/uniform-dark-theme-sn/-/archive/test/uniform-dark-theme-sn-test.zip",
+  "url": "https://saegl5.gitlab.io/css/stylesheet.css",
+  "download_url": "https://github.com/saegl5/uniform-dark-theme-sn/archive/test.zip",
   "latest_url": "https://listed.to/p/shF0UFQe2O",
   "marketing_url": "https://gitlab.com/saegl5/uniform-dark-theme-standard-notes/",
   "thumbnail_url": "https://domain.org/editors/adv-markdown.jpg"

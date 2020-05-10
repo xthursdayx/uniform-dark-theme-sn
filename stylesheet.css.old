@@ -753,3 +753,71 @@ h4, .cm-header-4
     background: var(--editor-code-bg-color) !important;
     padding: 5px 2px 5px 2px !important;
 }
+
+.ace_heading {
+  color: #569CD6 !important;
+  font-weight: bold !important;
+}
+
+.side-bar {
+  background-color: #1e1e1e !important;
+}
+
+/* main font, code blocks and lists */
+.ace_support, .ace_list {
+  color: #d4d4d4 !important;
+}
+
+/* strings in links */
+.ace_string {
+  color: #CE9178 !important;
+}
+
+/* strings that are italicized */
+.ace_emphasis {
+  color: #d4d4d4 !important;
+  font-style: italic !important;
+}
+
+/* comments */
+.ace_comment {
+  color: #6A9955 !important;
+  font-style: normal !important;
+}
+
+/* constants, example: &#8212; */
+/* tags, example: pre in "<br />" */
+.ace_constant, .ace_tag {
+  color: #569CD6 !important;
+}
+
+/* punctuation of tags, example: <> in "<br />" */
+.ace_punctuation.ace_tag {
+  color: #808080 !important;
+}
+
+/* markup of lists, for example: * in "* item" */
+.ace_markup.ace_list {
+  color: #569CD6 !important;
+}
+
+/* selections */
+.ace_selected-word, .ace_selection {
+  background-color: #264f78 !important;
+}
+
+/* keywords in code */
+.hljs-keyword {
+  color: #abb2bf !important;
+}
+  
+/* code */
+.hljs {
+  line-height: 1.15 !important;
+}
+
+/* hyperlinks */
+a {
+  color: #569CD6 !important;
+  text-decoration: none !important;
+}
