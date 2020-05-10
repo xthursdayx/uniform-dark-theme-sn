@@ -2,6 +2,11 @@ Note: GitHub repository is mirrored from GitLab. To submit pull requests or repo
 
 Work in progress...
 
+For Web client to work, stylesheet is also hosted on GitLab Pages:
+http://saegl5.gitlab.io/css/stylesheet.css
+
 ## Known Issues
 
-~~Theme does not work in Standard Notes 3.4.1 ([#550](https://github.com/standardnotes/desktop/issues/550))~~ - Patched!
+- [x] ~~Theme does not work in Standard Notes 3.4.1 ([#550](https://github.com/standardnotes/desktop/issues/550))~~ - **Fixed!**<br>
+- [x] ~~Theme does not work with Web client~~ - **Fixed!**<br>
+- [ ] Theme crashes Android client (related to [#56](https://github.com/standardnotes/mobile/issues/56)?)<br>
