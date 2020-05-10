@@ -2,13 +2,15 @@
 /* electron or chrome colors slightly off, so appending hex color opacity of fc (99%) */
 
 /* import custom fonts */
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;700&display=swap');
 
 /* base settings */
 :root {
 
   /* font */
-  --sn-stylekit-monospace-font: 'Fira Code', monospace; /* includes ligatures */
+  /* --sn-stylekit-monospace-font: 'Fira Code', monospace; */ /* includes ligatures */
+  --sn-stylekit-monospace-font: 'Fira Sans', sans-serif;
 
   /* notes-column, editor and markdown */
   --sn-stylekit-background-color: #1e1e1efc;
@@ -25,6 +27,18 @@
   /* tags-content */
   --sn-stylekit-secondary-contrast-background-color: var(--sn-stylekit-background-color);
   --sn-stylekit-secondary-contrast-foreground-color: var(--sn-stylekit-foreground-color);
+
+known issue: why selects next line when select line (issue with extension), font-weight doesn't work in markdown preview, orange color in search results/green if on web, track outline when press and hold on scrollbar in markdown (color is connected to search)
+sort through old, tidy up json
+x reset git history, just remove mentions of some stuff
+mobile crashing, ~~finish setting up repo~~, cc directions, cc other markdown one that looks similar researched before
+need readme, download_url and thumbnail_url
+or see what other people are doing?
+make sure search highlight remains, seems to get removed when selected highlight
+orange seems to be related to same colors overlapping
+The file will have its original line endings in your working directory.
+answer person about mime error and server thing for web theme
+
 
   /* shadow */
   --sn-stylekit-shadow-color: #000000fc;
