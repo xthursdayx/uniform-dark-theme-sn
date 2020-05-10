@@ -3,7 +3,7 @@ Note: GitHub repository is mirrored from GitLab. To submit pull requests or repo
 Work in progress...
 
 For Web client to work, stylesheet is also hosted on GitLab Pages:
-[http://saegl5.gitlab.io/css/stylesheet.css](http://saegl5.gitlab.io/css/stylesheet.css)
+[https://saegl5.gitlab.io/css/stylesheet.css](https://saegl5.gitlab.io/css/stylesheet.css)
 
 ## Known Issues
 
