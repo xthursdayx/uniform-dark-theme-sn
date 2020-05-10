@@ -2,18 +2,13 @@
 /* electron or chrome colors slightly off, so appending hex color opacity of fc (99%) */
 
 /* import custom fonts */
-/* @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&display=swap'); */
-
-@font-face {
-  font-family: 'Fira Code', monospace;
-  src: url('Fira_Code/FiraCode-VariableFont_wght.ttf');
-}
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&display=swap');
 
 /* base settings */
 :root {
 
   /* font */
-  /* --sn-stylekit-monospace-font: 'Fira Code', monospace; */ /* includes ligatures */
+  --sn-stylekit-monospace-font: 'Fira Code', monospace; /* includes ligatures */
 
   /* notes-column, editor and markdown */
   --sn-stylekit-background-color: #1e1e1efc;
