@@ -10,4 +10,4 @@ For Web client to work, stylesheet is also hosted on GitLab Pages:
 - [x] ~~Theme does not work in Standard Notes 3.4.1 ([#550](https://github.com/standardnotes/desktop/issues/550))~~ - **Fixed!**<br>
 - [x] ~~Theme does not work with Web client~~ - **Fixed!**<br>
 - [ ] Theme crashes Android client (related to [#56](https://github.com/standardnotes/mobile/issues/56)?)<br>
-- [ ] Desktop client has stronger font-weight after upgrading from version 3.3.5 to 3.4.1
+- [ ] Desktop client has stronger font-weight after upgrading from version 3.3.5 to 3.4.1 ([#551](https://github.com/standardnotes/desktop/issues/551))
