@@ -6,13 +6,13 @@ Note: GitHub repository is mirrored from GitLab. To submit pull requests or repo
 
 Color theme inspired by Visual Studio Code's default dark theme, but designed for Standard Notes.
 
-Work in progress...
-
-<!--## Preview <-- use firefox!!!!!!
+## Preview
 
 ![Alt](./Images/preview.png "Preview of Uniform Dark+ Theme")
 
-I enjoy the default dark theme, however for me it appears too *boxy*. Also, I prefer a cleaner look.
+Work in progress...
+
+<!--I enjoy the default dark theme, however for me it appears too *boxy*. Also, I prefer a cleaner look.
 
 Lighter colors of user interface elements (e.g., Custom Title Bar, Activity Bar and Status Bar) are changed to match the darker color of the Editor background.
 
