@@ -4,21 +4,21 @@ Note: GitHub repository is mirrored from GitLab. To submit pull requests or repo
 
 ## Uniform Dark+ Theme
 
-Color theme inspired by Visual Studio Code's default dark theme, but designed for Standard Notes.
+Theme inspired by Visual Studio Code's default dark theme, designed for Standard Notes. It is based off my other [theme](https://gitlab.com/dark-themes/uniform-dark-theme-vscode "Click here to access the repository.") that unifies VS Code's default dark theme.
 
 ## Preview
 
 ![Alt](./Images/preview.png "Preview of Uniform Dark+ Theme")
 
+I enjoy VS Code's default dark theme, however for me it appeared too *boxy*. Also, I preferred a cleaner look.
+
+Lighter colors of user interface elements were changed to match the darker color of its Editor background. I am porting that style to Standard Notes.
+
+Included in the theme, though&#8212;as depicted in the preview image, is my favorite editor font family: [Fira Code](https://github.com/tonsky/FiraCode "Click here to access the repository for more information.").
+
 Work in progress...
 
-<!--I enjoy the default dark theme, however for me it appears too *boxy*. Also, I prefer a cleaner look.
-
-Lighter colors of user interface elements (e.g., Custom Title Bar, Activity Bar and Status Bar) are changed to match the darker color of the Editor background.
-
-Not included in the color theme, though&#8212;but depicted in the preview image, is my favorite editor font family: [Fira Code](https://github.com/tonsky/FiraCode "Click here to access the repository for more information.").
-
-## Build from Source Code
+<!--## Build from Source Code
 
 Download [Visual Studio Code](https://code.visualstudio.com/ "Click here to access the download link.") from Microsoft, and install it.
 
