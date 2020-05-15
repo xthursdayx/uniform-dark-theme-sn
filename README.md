@@ -16,42 +16,68 @@ Lighter colors of user interface elements were changed to match the darker color
 
 Included in the theme, though&#8212;as depicted in the preview image, is my favorite editor font family: [Fira Code](https://github.com/tonsky/FiraCode "Click here to access the repository for more information.").
 
-Work in progress...
+## Build from Source Code
 
-<!--## Build from Source Code
+Download and install [Standard Notes Desktop](https://standardnotes.org/ "Click here to access the download links."), or simply open [Standard Notes Web](https://standardnotes.org/ "Click here to access the link.").
 
-Download [Visual Studio Code](https://code.visualstudio.com/ "Click here to access the download link.") from Microsoft, and install it.
+Also, download and install [Git](https://git-scm.com/downloads "Click here to access the download link.").
 
-Download and install [Node.js](https://nodejs.org/en/ "Click here to access the download link.") and [Git](https://git-scm.com/downloads "Click here to access the download link.").
-
-Also, open a terminal to download and install the Visual Studio Code Extension Manager (vsce):
+Open a terminal, and clone the project:
 ```
-npm install -g vsce
-```
-
-Clone the project:
-```
-git clone https://gitlab.com/dark-themes/uniform-dark-theme-vscode.git
+git clone https://gitlab.com/dark-themes/uniform-dark-theme-sn.git
 ```
 
 (Recommended) Verify the project's authenticity: Look upward for "Verified," next to the commit SHA.
 
 (Recommended) Open a terminal, and verify the project's integrity:
 ```
-cd uniform-dark-theme-vscode
+cd uniform-dark-theme-sn
 git show-ref --heads --hash
 ```
 Check that the hash matches the commit SHA.
 
-Open the project in Visual Studio Code, and build/package the extension:
+Generate an author link at [https://listed.to](https://listed.to/ "Click here to access the website.").
+
+Open either Standard Notes Desktop or Web, and import and install the author link as an extension. Include the space at the end (i.e., "= "); do not omit it.
+
+Create a note, and paste contents from **my-extension.json** into it. Then, go to Actions and select Publish to Private Link.
+
+Obtain the **latest_url** address, which is mentioned in my-extension.json: Go to Actions, and select Open Private Link. The address will be posted in the address bar. Hold onto it. (No need to replace the latest_url address mentioned in my-extension.json.) <!--what if need update ping?-->
+
+### Standard Notes Desktop
+
+Open a terminal, and create and push a tag:
 ```
-vsce package \
---baseContentUrl https://gitlab.com/dark-themes/uniform-dark-theme/-/raw/master/ \
---baseImagesUrl https://gitlab.com/dark-themes/uniform-dark-theme/-/raw/master/ \
---out Archives/
+git tag -a [tag name] -m "[comment]" && \
+git push origin [tag name]
 ```
 
-## Usage
+Update the **download_url** address in my-extension.json:
+```
+"download_url": "https://github.com/saegl5/uniform-dark-theme-sn/archive/[tag name].zip",
+```
+
+Go to Actions, and select Update Private Post.
+
+Standard Notes Web does not utilize the download_url, only Desktop utilizes it.
+
+### Standard Notes Web
+
+The raw file (i.e., [https://gitlab.com/dark-themes/uniform-dark-theme-sn/-/raw/master/stylesheet.css](https://gitlab.com/dark-themes/uniform-dark-theme-sn/-/raw/master/stylesheet.css "Click here to access the raw file.")) will not work.
+
+Instead, stylesheet is also hosted on GitLab Pages:
+[https://saegl5.gitlab.io/css/stylesheet.css](https://saegl5.gitlab.io/css/stylesheet.css)
+
+Work in progress...
+<!-- easier way -->
+
+<!--## Usage
+
+Import and install the latest_url (i.e., the address held onto earlier) as an extension. Then, Activate the theme.
+
+need extended?
+depends if web or application
+**<u>WARNING!</u>** Do NOT install this theme in Standard Notes Mobile! Not yet! The theme currently crashes Standard Notes Android, and it may crash the iOS app too. Wait until a???
 
 Select Install to do so automatically. \
 Alternatively, install the extension from the VSIX file in Visual Studio Code.
@@ -81,9 +107,6 @@ Apr 16, 2020 &middot; Version 1.1.2: refined the project \
 Apr 11, 2020 &middot; Version 1.1.1: corrected manifest file \
 Apr 10, 2020 &middot; Version 1.1: changed tab border color \
 Apr 9, 2020 &middot; Version 1: initial commit -->
-
-For Web client to work, stylesheet is also hosted on GitLab Pages:
-[https://saegl5.gitlab.io/css/stylesheet.css](https://saegl5.gitlab.io/css/stylesheet.css)
 
 ## Known Issues
 
