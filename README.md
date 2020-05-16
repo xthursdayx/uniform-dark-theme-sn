@@ -48,7 +48,7 @@ Obtain the **latest_url** address, which is mentioned in my-extension.json: Go t
 
 ### Standard Notes Desktop
 
-Open a terminal, and populate a remote empty public GitHub repository:<br>
+Open a terminal, and populate a remote empty public GitHub repository: \
 (Up to Standard Notes 3.3.5, an empty GitLab repository had worked. 'No longer.)
 ```
 cd uniform-dark-theme-sn
@@ -61,22 +61,22 @@ Create and push a tag:
 git tag -a [tag name] -m "[comment]"
 git push origin [tag name]
 ```
-Update the **download_url** address in the Standard Notes note:<br>
-(again, the note into which you pasted contents from my-extension.json)<br>
+Update the **download_url** address in the Standard Notes note: \
+(again, the note into which you pasted contents from my-extension.json) \
 `"download_url": "[GitHub repository URL]/archive/[tag name].zip"`
 
 Go to Actions, and select Update Private Post.
 
-Standard Notes Web does not utilize the download_url, only Desktop utilizes it.
+Standard Notes Web does not utilize the download_url, only the Desktop client utilizes it.
 
 ### Standard Notes Web
 
-Create another remote empty public GitHub repository, but name it:<br>
+Create another remote empty public GitHub repository, but name it: \
 `[username].github.io`
 
 Simply upload **stylesheet.css**. No need to clone the repository.
 
-Update the **url** address in the Standard Notes note:<br>
+Update the **url** address in the Standard Notes note: \
 `"url": "https://[username].github.io/stylesheet.css"`
 
 Update Private Post, again.
@@ -85,27 +85,23 @@ Note #1: A remote public GitLab repository will also work. In such a case, creat
 
 Note #2: Standard Notes cannot read the stylesheet from the parent repository. For example, it cannot read [https://raw.githubusercontent.com/saegl5/uniform-dark-theme-sn/master/stylesheet.css](https://raw.githubusercontent.com/saegl5/uniform-dark-theme-sn/master/stylesheet.css "Click here to access the raw file."). It cannot read the stylesheet, had the file been hosted on GitLab, either.
 
-Standard Notes Desktop does not utilize the url, only Web utilizes it.
+Standard Notes Desktop does not utilize the url, only the Web client utilizes it.
 
 ## Usage
 
 Import and install the latest_url (i.e., the address held onto earlier) as an extension. Then, Activate the theme.
 
-In addition, if you purchased Standard Notes Extended, then import and install the Markdown Pro editor extension. 
+In addition, if you purchased Standard Notes Extended, then import, install and activate the Markdown Pro editor extension. 
 
 Again, the theme will work with the Plain Editor, but it will appear much more primitive.
 
 **<u>WARNING!</u>** Do NOT install the theme in Standard Notes Mobile! Not yet! The theme currently crashes Standard Notes Android, and it may crash the iOS app too.
 
+Note: If you change the theme, sometimes the theme in the Desktop client will not change. If so, you may need to manually remove the theme, clear the cache, close and reopen the client, and import and install the theme again. To manually remove the theme, go to Help > Open Data Directory, and open the Extensions directory; inside that, delete the theme directory; and inside the downloads directory of that, delete the theme's ZIP file. To clear the cache, go to Help > Clear Cache and Reload.
+
+Known to work in Standard Notes 3.4.1
+
 Work in progress...
-
-<!-- Select Install to do so automatically. \
-Alternatively, install the extension from the VSIX file in Visual Studio Code.
-
-Press on the cogwheel, ⚙️; select Color Theme; and choose Uniform Dark+. \
-Alternatively, go to File > Preferences > Color Theme, and choose Uniform Dark+.
-
-Known to work in Visual Studio Code 1.44.2 -->
 
 <!--## Contributing
 
@@ -130,9 +126,9 @@ Apr 9, 2020 &middot; Version 1: initial commit -->
 
 ## Known Issues
 
-- [x] ~~Theme does not work in Standard Notes 3.4.1 ([#550](https://github.com/standardnotes/desktop/issues/550))~~ - **Fixed!**<br>
-- [x] ~~Theme does not work with Web client~~ - **Fixed!**<br>
-- [x] ~~Desktop client has stronger font-weight after upgrading from version 3.3.5 to 3.4.1 ([#551](https://github.com/standardnotes/desktop/issues/551),[#14948](https://github.com/electron/electron/issues/14948))~~ - **Contrasted colors more**<br>
+- [x] ~~Theme does not work in Standard Notes 3.4.1 ([#550](https://github.com/standardnotes/desktop/issues/550))~~ - **Fixed!**
+- [x] ~~Theme does not work with Web client~~ - **Fixed!**
+- [x] ~~Desktop client has stronger font-weight after upgrading from version 3.3.5 to 3.4.1 ([#551](https://github.com/standardnotes/desktop/issues/551),[#14948](https://github.com/electron/electron/issues/14948))~~ - **Contrasted colors more**
 - [ ] Theme crashes Android client (related to [#56](https://github.com/standardnotes/mobile/issues/56)?)
 
 ## License
