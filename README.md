@@ -14,7 +14,9 @@ I enjoy VS Code's default dark theme, however for me it appeared too *boxy*. Als
 
 Lighter colors of user interface elements were changed to match the darker color of its Editor background. I am porting that style to Standard Notes.
 
-Included in the theme, though&#8212;as depicted in the preview image, is my favorite editor font family: [Fira Code](https://github.com/tonsky/FiraCode "Click here to access the repository for more information.").
+Included in the theme, though&#8212;as depicted in the preview image, is my favorite editor font family: [Fira Code](https://github.com/tonsky/FiraCode "Click here to access the repository for more information."). 
+
+Also depicted in the preview image is the fact that the theme is designed to work with the Markdown Pro editor. The editor is not included in the theme, and it requires a separate purchase (see [Standard Notes Extended](https://standardnotes.org/extensions "Click here for more information.")). The theme will work with the Plain Editor, too, but it will appear much more primitive. 
 
 ## Build from Source Code
 
@@ -81,36 +83,31 @@ Update Private Post, again.
 
 Note #1: A remote public GitLab repository will also work. In such a case, create the repository from a Pages/Plain HTML template; upload the stylesheet to the public directory; wait for the pipeline to finish running; then, update the url and private post accordingly.
 
-Note #2: Standard Notes cannot read the stylesheet from the parent repository. That is, it cannot read [https://raw.githubusercontent.com/saegl5/uniform-dark-theme-sn/master/stylesheet.css](https://raw.githubusercontent.com/saegl5/uniform-dark-theme-sn/master/stylesheet.css "Click here to access the raw file."). It cannot read the stylesheet, had the file been hosted on GitLab, either.
-
-[https://gitlab.com/dark-themes/uniform-dark-theme-sn/-/raw/master/stylesheet.css](https://gitlab.com/dark-themes/uniform-dark-theme-sn/-/raw/master/stylesheet.css "Click here to access the raw file.")) will not work.
+Note #2: Standard Notes cannot read the stylesheet from the parent repository. For example, it cannot read [https://raw.githubusercontent.com/saegl5/uniform-dark-theme-sn/master/stylesheet.css](https://raw.githubusercontent.com/saegl5/uniform-dark-theme-sn/master/stylesheet.css "Click here to access the raw file."). It cannot read the stylesheet, had the file been hosted on GitLab, either.
 
 Standard Notes Desktop does not utilize the url, only Web utilizes it.
 
-<!-- 
-Instead, stylesheet is also hosted on GitLab Pages:
-[https://saegl5.gitlab.io/css/stylesheet.css](https://saegl5.gitlab.io/css/stylesheet.css) -->
-
-Work in progress...
-<!-- easier way: try plain html -->
-
-<!--## Usage
+## Usage
 
 Import and install the latest_url (i.e., the address held onto earlier) as an extension. Then, Activate the theme.
 
-need extended?
-depends if web or application
-**<u>WARNING!</u>** Do NOT install this theme in Standard Notes Mobile! Not yet! The theme currently crashes Standard Notes Android, and it may crash the iOS app too. Wait until a???
+In addition, if you purchased Standard Notes Extended, then import and install the Markdown Pro editor extension. 
 
-Select Install to do so automatically. \
+Again, the theme will work with the Plain Editor, but it will appear much more primitive.
+
+**<u>WARNING!</u>** Do NOT install the theme in Standard Notes Mobile! Not yet! The theme currently crashes Standard Notes Android, and it may crash the iOS app too.
+
+Work in progress...
+
+<!-- Select Install to do so automatically. \
 Alternatively, install the extension from the VSIX file in Visual Studio Code.
 
 Press on the cogwheel, ⚙️; select Color Theme; and choose Uniform Dark+. \
 Alternatively, go to File > Preferences > Color Theme, and choose Uniform Dark+.
 
-Known to work in Visual Studio Code 1.44.2
+Known to work in Visual Studio Code 1.44.2 -->
 
-## Contributing
+<!--## Contributing
 
 Sign into GitLab, to fork the project. \
 (The repository is located at [https://gitlab.com/dark-themes/uniform-dark-theme-vscode](https://gitlab.com/dark-themes/uniform-dark-theme-vscode "Click here to access the repository.").)
