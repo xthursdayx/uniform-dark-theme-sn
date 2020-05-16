@@ -42,20 +42,26 @@ Open either Standard Notes Desktop or Web, and import and install the author lin
 
 Create a note, and paste contents from **my-extension.json** into it. Then, go to Actions and select Publish to Private Link.
 
-Obtain the **latest_url** address, which is mentioned in my-extension.json: Go to Actions, and select Open Private Link. The address will be posted in the address bar. Hold onto it. (No need to replace the latest_url address mentioned in my-extension.json.) <!--what if need update ping?-->
+Obtain the **latest_url** address, which is mentioned in my-extension.json: Go to Actions, and select Open Private Link. The address will be posted in the address bar. Hold onto it. (No need to replace the latest_url address mentioned in my-extension.json.) <!--what if need update ping? maybe discuss standard notes later?-->
 
 ### Standard Notes Desktop
 
-Open a terminal, and create and push a tag:
+Open a terminal, and populate a remote empty public GitHub repository:<br>
+(Up to Standard Notes 3.3.5, an empty GitLab repository had worked. 'No longer.)
 ```
-git tag -a [tag name] -m "[comment]" && \
+cd uniform-dark-theme-sn
+git remote rename origin old-origin
+git remote add origin [empty GitHub repository URL]
+git push -u origin master
+```
+Create and push a tag:
+```
+git tag -a [tag name] -m "[comment]"
 git push origin [tag name]
 ```
-
-Update the **download_url** address in my-extension.json:
-```
-"download_url": "https://github.com/saegl5/uniform-dark-theme-sn/archive/[tag name].zip",
-```
+Update the **download_url** address in the Standard Notes note:<br>
+(again, the note into which you pasted contents from my-extension.json)<br>
+`"download_url": "[GitHub repository URL]/archive/[tag name].zip"`
 
 Go to Actions, and select Update Private Post.
 
@@ -63,13 +69,31 @@ Standard Notes Web does not utilize the download_url, only Desktop utilizes it.
 
 ### Standard Notes Web
 
+Create another remote empty public GitHub repository, but name it:<br>
+`[username].github.io`
+
+Upload **stylesheet.css**
+
+Update the **url** address in the Standard Notes note:<br>
+`"url": "https://[username].github.io/stylesheet.css"`
+
+Update Private Post, again.
+
+Standard Notes Desktop does not utilize the url, only Web utilizes it.
+
+
+
+<!-- New project > Create from template: Pages/Plain HTML
+Project settings > Advanced > Change project path to https://gitlab.com/dark-themes/[namespace].gitlab.io
+"url": "https://dark-themes.gitlab.io/[stylesheet name].css"
+
 The raw file (i.e., [https://gitlab.com/dark-themes/uniform-dark-theme-sn/-/raw/master/stylesheet.css](https://gitlab.com/dark-themes/uniform-dark-theme-sn/-/raw/master/stylesheet.css "Click here to access the raw file.")) will not work.
 
 Instead, stylesheet is also hosted on GitLab Pages:
-[https://saegl5.gitlab.io/css/stylesheet.css](https://saegl5.gitlab.io/css/stylesheet.css)
+[https://saegl5.gitlab.io/css/stylesheet.css](https://saegl5.gitlab.io/css/stylesheet.css) -->
 
 Work in progress...
-<!-- easier way -->
+<!-- easier way: try plain html -->
 
 <!--## Usage
 
