@@ -79,16 +79,15 @@ Update the **url** address in the Standard Notes note:<br>
 
 Update Private Post, again.
 
+Note #1: A remote public GitLab repository will also work. In such a case, create the repository from a Pages/Plain HTML template; upload the stylesheet to the public directory; wait for the pipeline to finish running; then, update the url and private post accordingly.
+
+Note #2: Standard Notes cannot read the stylesheet from the parent repository. That is, it cannot read [https://raw.githubusercontent.com/saegl5/uniform-dark-theme-sn/master/stylesheet.css](https://raw.githubusercontent.com/saegl5/uniform-dark-theme-sn/master/stylesheet.css "Click here to access the raw file."). It cannot read the stylesheet, had the file been hosted on GitLab, either.
+
+[https://gitlab.com/dark-themes/uniform-dark-theme-sn/-/raw/master/stylesheet.css](https://gitlab.com/dark-themes/uniform-dark-theme-sn/-/raw/master/stylesheet.css "Click here to access the raw file.")) will not work.
+
 Standard Notes Desktop does not utilize the url, only Web utilizes it.
 
-
-
-<!-- New project > Create from template: Pages/Plain HTML
-Project settings > Advanced > Change project path to https://gitlab.com/dark-themes/[namespace].gitlab.io
-"url": "https://dark-themes.gitlab.io/[stylesheet name].css"
-
-The raw file (i.e., [https://gitlab.com/dark-themes/uniform-dark-theme-sn/-/raw/master/stylesheet.css](https://gitlab.com/dark-themes/uniform-dark-theme-sn/-/raw/master/stylesheet.css "Click here to access the raw file.")) will not work.
-
+<!-- 
 Instead, stylesheet is also hosted on GitLab Pages:
 [https://saegl5.gitlab.io/css/stylesheet.css](https://saegl5.gitlab.io/css/stylesheet.css) -->
 
