@@ -72,7 +72,7 @@ Standard Notes Web does not utilize the download_url, only Desktop utilizes it.
 Create another remote empty public GitHub repository, but name it:<br>
 `[username].github.io`
 
-Upload **stylesheet.css**
+Simply upload **stylesheet.css**. No need to clone the repository.
 
 Update the **url** address in the Standard Notes note:<br>
 `"url": "https://[username].github.io/stylesheet.css"`
