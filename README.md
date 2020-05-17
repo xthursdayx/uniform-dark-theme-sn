@@ -62,11 +62,13 @@ Work in progress...
 
 ### Standard Notes Web
 
-Create another remote empty public GitHub repository, but name it `[username].github.io`
+Create another remote empty public GitHub repository, but name it: \
+`[username].github.io`
 
 Simply upload **stylesheet.css**. No need to clone the repository.
 
-Update the **url** address in my-extension.json: `"url": "https://[username].github.io/stylesheet.css"`
+Update the **url** address in my-extension.json: \
+`"url": "https://[username].github.io/stylesheet.css"`
 
 Note: A remote public GitLab repository will also work. In such a case, create the repository from a Pages/Plain HTML template; upload the stylesheet to the public directory; wait for the pipeline to finish running; then, update the url accordingly.
 
