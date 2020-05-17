@@ -78,7 +78,7 @@ Generate an author link at [https://listed.to](https://listed.to/ "Click here to
 
 Open either Standard Notes Desktop or Web, and import and install the author link as an extension. Include the space at the end (i.e., "= "); do not omit it.
 
-Create a note, and paste contents from **my-extension.json** into it. Then, go to Actions and select Publish to Private Link.
+Create a note, and paste contents from my-extension.json into it. Then, go to Actions and select Publish to Private Link.
 
 Obtain the **latest_url** address, which is mentioned in my-extension.json: Go to Actions, and select Open Private Link. The address will be posted in the address bar. Copy it for the next step. \
 (No need to replace the latest_url address mentioned in my-extension.json, unless you want to fork the project to develop your own theme.)
@@ -87,7 +87,7 @@ Obtain the **latest_url** address, which is mentioned in my-extension.json: Go t
 
 Import and install the latest_url as an extension. Then, Activate the theme.
 
-**Do NOT install the theme in Standard Notes Mobile, though! Not yet! The theme currently crashes Standard Notes Android, and it may crash the iOS client too.**
+**Do NOT activate the theme in Standard Notes Mobile, though! Not yet! The theme currently crashes Standard Notes Android, and it may crash the iOS client.**
 
 If you purchased Standard Notes Extended, then also import, install and activate the Markdown Pro editor extension. Again, the theme will work with the Plain Editor, but it will appear much more primitive.
 
