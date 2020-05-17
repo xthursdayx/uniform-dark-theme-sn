@@ -32,11 +32,13 @@ Work in progress...
 
 ##### Standard Notes Web
 
-Create another remote empty public GitHub repository, but name it [username].github.io
+Create another remote empty public GitHub repository, but name it:
+[username].github.io
 
 Upload stylesheet.css
 
-Update the url address in my-extension.json: "url": "https://[username].github.io/stylesheet.css"
+Update the url address in my-extension.json: 
+"url": "https://[username].github.io/stylesheet.css"
 
 
 
