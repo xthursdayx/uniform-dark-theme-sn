@@ -38,14 +38,6 @@ git show-ref --heads --hash
 ```
 Check that the hash matches the commit SHA.
 
-Generate an author link at [https://listed.to](https://listed.to/ "Click here to access the website.").
-
-Open either Standard Notes Desktop or Web, and import and install the author link as an extension. Include the space at the end (i.e., "= "); do not omit it.
-
-Create a note, and paste contents from **my-extension.json** into it. Then, go to Actions and select Publish to Private Link.
-
-Obtain the **latest_url** address, which is mentioned in my-extension.json: Go to Actions, and select Open Private Link. The address will be posted in the address bar. Hold onto it. (No need to replace the latest_url address mentioned in my-extension.json.) <!--what if need update ping? maybe discuss standard notes later?-->
-
 ### Standard Notes Desktop
 
 Open a terminal, and populate a remote empty public GitHub repository: \
@@ -61,54 +53,54 @@ Create and push a tag:
 git tag -a [tag name] -m "[comment]"
 git push origin [tag name]
 ```
-Update the **download_url** address in the Standard Notes note: \
-(again, the note into which you pasted contents from my-extension.json) \
+Update the **download_url** address in my-extension.json: \
 `"download_url": "[GitHub repository URL]/archive/[tag name].zip"`
 
-Go to Actions, and select Update Private Post.
-
-Standard Notes Web does not utilize the download_url, only the Desktop client utilizes it.
-
-### Standard Notes Web
-
-Create another remote empty public GitHub repository, but name it: \
-`[username].github.io`
-
-Simply upload **stylesheet.css**. No need to clone the repository.
-
-Update the **url** address in the Standard Notes note: \
-`"url": "https://[username].github.io/stylesheet.css"`
-
-Update Private Post, again.
-
-Note #1: A remote public GitLab repository will also work. In such a case, create the repository from a Pages/Plain HTML template; upload the stylesheet to the public directory; wait for the pipeline to finish running; then, update the url and private post accordingly.
-
-Note #2: Standard Notes cannot read the stylesheet from the parent repository. For example, it cannot read [https://raw.githubusercontent.com/saegl5/uniform-dark-theme-sn/master/stylesheet.css](https://raw.githubusercontent.com/saegl5/uniform-dark-theme-sn/master/stylesheet.css "Click here to access the raw file."). It cannot read the stylesheet, had the file been hosted on GitLab, either.
-
-Standard Notes Desktop does not utilize the url, only the Web client utilizes it.
-
-## Usage
-
-Import and install the latest_url (i.e., the address held onto earlier) as an extension. Then, Activate the theme.
-
-In addition, if you purchased Standard Notes Extended, then import, install and activate the Markdown Pro editor extension. 
-
-Again, the theme will work with the Plain Editor, but it will appear much more primitive.
-
-**<u>WARNING!</u>** Do NOT install the theme in Standard Notes Mobile! Not yet! The theme currently crashes Standard Notes Android, and it may crash the iOS app too.
-
-Note: If you change the theme, sometimes the theme in the Desktop client will not change. If so, you may need to manually remove the theme, clear the cache, close and reopen the client, and import and install the theme again. To manually remove the theme, go to Help > Open Data Directory, and open the Extensions directory; inside that, delete the theme directory; and inside the downloads directory of that, delete the theme's ZIP file. To clear the cache, go to Help > Clear Cache and Reload.
-
-Known to work in Standard Notes 3.4.1
+### Standard Notes Mobile
 
 Work in progress...
 
-<!--## Contributing
+### Standard Notes Web
+
+Create another remote empty public GitHub repository, but name it `[username].github.io`
+
+Simply upload **stylesheet.css**. No need to clone the repository.
+
+Update the **url** address in my-extension.json: `"url": "https://[username].github.io/stylesheet.css"`
+
+Note: A remote public GitLab repository will also work. In such a case, create the repository from a Pages/Plain HTML template; upload the stylesheet to the public directory; wait for the pipeline to finish running; then, update the url accordingly.
+
+<!-- Note #2: Standard Notes cannot read the stylesheet from the parent repository. For example, it cannot read [https://raw.githubusercontent.com/saegl5/uniform-dark-theme-sn/master/stylesheet.css](https://raw.githubusercontent.com/saegl5/uniform-dark-theme-sn/master/stylesheet.css "Click here to access the raw file."). It cannot read the stylesheet, had the file been hosted on GitLab, either. -->
+
+### Subsequent Steps
+
+Generate an author link at [https://listed.to](https://listed.to/ "Click here to access the website.")
+
+Open either Standard Notes Desktop or Web, and import and install the author link as an extension. Include the space at the end (i.e., "= "); do not omit it.
+
+Create a note, and paste contents from **my-extension.json** into it. Then, go to Actions and select Publish to Private Link.
+
+Obtain the **latest_url** address, which is mentioned in my-extension.json: Go to Actions, and select Open Private Link. The address will be posted in the address bar. Copy it for the next step. \
+(No need to replace the latest_url address mentioned in my-extension.json, unless you want to fork the project to develop your own theme.)
+
+## Usage
+
+Import and install the latest_url as an extension. Then, Activate the theme.
+
+**Do NOT install the theme in Standard Notes Mobile, though! Not yet! The theme currently crashes Standard Notes Android, and it may crash the iOS client too.**
+
+If you purchased Standard Notes Extended, then also import, install and activate the Markdown Pro editor extension. Again, the theme will work with the Plain Editor, but it will appear much more primitive.
+
+Note: If you change the theme, sometimes the theme in the Desktop client will not change. If so, you may need to manually remove the theme, clear the cache, close and reopen the client, and import and install the theme again. To manually remove the theme, go to Help > Open Data Directory, and open the Extensions directory; inside that, delete the theme directory; and inside the downloads directory of that, delete the theme's ZIP file. To clear the cache, go to Help > Clear Cache and Reload.
+
+Known to work in Standard Notes Desktop 3.4.1 and Standard Notes Web 3.3.5
+
+## Contributing
 
 Sign into GitLab, to fork the project. \
-(The repository is located at [https://gitlab.com/dark-themes/uniform-dark-theme-vscode](https://gitlab.com/dark-themes/uniform-dark-theme-vscode "Click here to access the repository.").)
+(The repository is located at [https://gitlab.com/dark-themes/uniform-dark-theme-sn](https://gitlab.com/dark-themes/uniform-dark-theme-sn "Click here to access the repository.").)
 
-Modify the color theme. \
+Modify the theme. \
 Stage, commit and push the changes.
 
 Return to the GitLab repository, and submit a new pull request. \
@@ -116,13 +108,8 @@ To report any issues, submit a new issue or discuss an existing one.
 
 ## History
 
-May 4, 2020 &middot; Version 1.2.1: corrected manifest file \
-May 3, 2020 &middot; Version 1.2: changed color of focusBorder \
-Apr 16, 2020 &middot; Version 1.1.3: corrected images in marketplace \
-Apr 16, 2020 &middot; Version 1.1.2: refined the project \
-Apr 11, 2020 &middot; Version 1.1.1: corrected manifest file \
-Apr 10, 2020 &middot; Version 1.1: changed tab border color \
-Apr 9, 2020 &middot; Version 1: initial commit -->
+May 16, 2020 &middot; Version 1: repository tidied \
+Apr 24, 2020 &middot; Version 0.x: initial commit
 
 ## Known Issues
 
