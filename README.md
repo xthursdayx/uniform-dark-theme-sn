@@ -4,7 +4,7 @@ Note: GitHub repository is mirrored from GitLab. To submit pull requests or repo
 
 ## Uniform Dark+ Theme
 
-Theme inspired by Visual Studio Code's default dark theme, designed for Standard Notes. It is based off my other [theme](https://gitlab.com/dark-themes/uniform-dark-theme-vscode "Click here to access the repository.") that unifies VS Code's default dark theme.
+Theme inspired by Visual Studio Code's default dark theme, designed for Standard Notes. It is loosely based off my other [theme](https://gitlab.com/dark-themes/uniform-dark-theme-vscode "Click here to access the repository.") that unifies VS Code's default dark theme.
 
 ## Preview
 
