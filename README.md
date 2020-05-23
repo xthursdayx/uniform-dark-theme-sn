@@ -119,6 +119,7 @@ Apr 24, 2020 &middot; Version 0.x: initial commit
 - [x] ~~Theme does not work with Web client~~ - **Fixed!**
 - [x] ~~Desktop client has stronger font-weight after upgrading from version 3.3.5 to 3.4.1 ([#551](https://github.com/standardnotes/desktop/issues/551),[#14948](https://github.com/electron/electron/issues/14948))~~ - **Contrasted colors more**
 - [ ] Theme crashes Android client (related to [#56](https://github.com/standardnotes/mobile/issues/56)?)
+- [ ] If press Escape button, see borders and vertical scrollbar
 
 ## License
 
