@@ -18,6 +18,14 @@ Included in the theme, though&#8212;as depicted in the preview image, is my favo
 
 Also depicted in the preview image is the fact that the theme is designed to work with the Markdown Pro editor. The editor is not included in the theme, and it requires a separate purchase (see [Standard Notes Extended](https://standardnotes.org/extensions "Click here for more information.")). The theme will work with the Plain Editor, too, but it will appear much more primitive. 
 
+## How to Install
+
+Import and install https://listed.to/p/shF0UFQe2O as an extension. Then, Activate the theme.
+
+**Do NOT activate the theme in Standard Notes Mobile, though! Not yet! The theme currently crashes Standard Notes Android, and it may crash the iOS client.**
+
+If you purchased Standard Notes Extended, then also import, install and activate the Markdown Pro editor extension. The theme will work with the Plain Editor, but it will appear much more primitive.
+
 ## Build from Source Code
 
 Download and install [Standard Notes Desktop](https://standardnotes.org/ "Click here to access the download links."), or simply open [Standard Notes Web](https://standardnotes.org/ "Click here to access the link.").
@@ -89,7 +97,7 @@ Obtain the **latest_url** address, which is mentioned in my-extension.json: Go t
 
 Import and install the latest_url as an extension. Then, Activate the theme.
 
-**Do NOT activate the theme in Standard Notes Mobile, though! Not yet! The theme currently crashes Standard Notes Android, and it may crash the iOS client.**
+**Again, do NOT activate the theme in Standard Notes Mobile, though! Not yet! The theme currently crashes Standard Notes Android, and it may crash the iOS client.**
 
 If you purchased Standard Notes Extended, then also import, install and activate the Markdown Pro editor extension. Again, the theme will work with the Plain Editor, but it will appear much more primitive.
 
