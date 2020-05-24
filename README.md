@@ -110,6 +110,7 @@ To report any issues, submit a new issue or discuss an existing one.
 
 ## History
 
+May 24, 2020 &middot; Version 1.0.1: shortened name \
 May 16, 2020 &middot; Version 1: repository tidied \
 Apr 24, 2020 &middot; Version 0.x: initial commit
 
