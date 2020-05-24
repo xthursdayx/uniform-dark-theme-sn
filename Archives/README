@@ -1,18 +1,6 @@
-# Latest Archive
-
-One can simply import and install https://listed.to/p/shF0UFQe2O as an extension. Then, Activate the theme.
-
-**Do NOT activate the theme in Standard Notes Mobile, though! Not yet! The theme currently crashes Standard Notes Android, and it may crash the iOS client.**
-
-If you purchased Standard Notes Extended, then also import, install and activate the Markdown Pro editor extension. The theme will work with the Plain Editor, but it will appear much more primitive.
-
-
-
-# All Archives
-
 "Unzip" the bundle, then open the unzipped directory.
 
-## Standard Notes Desktop
+# Standard Notes Desktop
 
 Download and install Git: https://git-scm.com/downloads
 
@@ -32,11 +20,11 @@ $ git push origin [tag name]
 Update the download_url address in my-extension.json:
 "download_url": "[GitHub repository URL]/archive/[tag name].zip"
 
-## Standard Notes Mobile
+# Standard Notes Mobile
 
 Work in progress...
 
-## Standard Notes Web
+# Standard Notes Web
 
 Create another remote empty public GitHub repository, but name it:
 [username].github.io
@@ -46,7 +34,7 @@ Upload stylesheet.css
 Update the url address in my-extension.json: 
 "url": "https://[username].github.io/stylesheet.css"
 
-## Subsequent Steps (Desktop and Web)
+# Subsequent Steps (Desktop and Web)
 
 Generate an author link at https://listed.to
 
