@@ -4,10 +4,10 @@ metatype: json
 
 {
   "identifier": "saegl5.uniform-dark-theme",
-  "name": "Uniform Dark+ Theme",
+  "name": "Uniform Dark+",
   "content_type": "SN|Theme",
   "area": "themes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Theme inspired by Visual Studio Code's default dark theme, designed for Standard Notes. It is based off my other theme that unifies VS Code's default dark theme.",
   "url": "https://dark-themes.gitlab.io/uniform-dark-theme.css",
   "download_url": "https://github.com/saegl5/uniform-dark-theme-sn/archive/v1.zip",
