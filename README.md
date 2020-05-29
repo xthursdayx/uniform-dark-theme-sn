@@ -22,8 +22,6 @@ Also depicted in the preview image is the fact that the theme is designed to wor
 
 Import and install https://listed.to/p/shF0UFQe2O as an extension. Then, Activate the theme.
 
-Note about Desktop client: If version 1 or 1.0.1 is installed, the extension will not update automatically. Uninstall the extension, then install version 1.0.2 or greater.
-
 **Do NOT activate the theme in Standard Notes Mobile, though! Not yet! The theme currently crashes Standard Notes Android, and it may crash the iOS client.**
 
 If you purchased Standard Notes Extended, then also import, install and activate the Markdown Pro editor extension. The theme will work with the Plain Editor, but it will appear much more primitive.
@@ -126,6 +124,10 @@ May 16, 2020 &middot; Version 1: repository tidied \
 Apr 24, 2020 &middot; Version 0.x: initial commit
 
 ## Known Issues
+
+Desktop client: If version 1 or 1.0.1 is installed, the extension will not update automatically. Uninstall the extension, then install version 1.0.2 or greater.
+
+## TO DO
 
 - [x] ~~Theme does not work in Standard Notes 3.4.1 ([#550](https://github.com/standardnotes/desktop/issues/550))~~ - **Fixed!**
 - [x] ~~Theme does not work with Web client~~ - **Fixed!**
