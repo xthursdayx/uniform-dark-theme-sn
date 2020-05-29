@@ -118,6 +118,7 @@ To report any issues, submit a new issue or discuss an existing one.
 
 ## History
 
+May 29, 2020 &middot; Version 1.0.2: fixed automatic updates \
 May 24, 2020 &middot; Version 1.0.1: shortened name \
 May 16, 2020 &middot; Version 1: repository tidied \
 Apr 24, 2020 &middot; Version 0.x: initial commit
@@ -129,7 +130,7 @@ Apr 24, 2020 &middot; Version 0.x: initial commit
 - [x] ~~Desktop client has stronger font-weight after upgrading from version 3.3.5 to 3.4.1 ([#551](https://github.com/standardnotes/desktop/issues/551),[#14948](https://github.com/electron/electron/issues/14948))~~ - **Contrasted colors more**
 - [ ] Theme crashes Android client (related to [#56](https://github.com/standardnotes/mobile/issues/56)?)
 - [ ] If press Escape button, see borders and vertical scrollbar
-- [ ] Extension does not autoupdate ([#557](https://github.com/standardnotes/desktop/issues/557))
+- [x] ~~Desktop extension does not autoupdate ([#557](https://github.com/standardnotes/desktop/issues/557))~~ - **Fixed!**
 
 ## License
 

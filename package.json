@@ -1,6 +1,6 @@
 {
+  "version": "1.0.2",
   "sn": {
     "main": "stylesheet.css"
-  },
-  "content_security_policy": "style-src-elem 'self' https://fonts.googleapis.com"
+  }
 }
