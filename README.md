@@ -118,6 +118,7 @@ To report any issues, submit a new issue or discuss an existing one.
 
 ## History
 
+Jun 8, 2020 &middot; Version 1.0.3: reverted changes to italics \
 May 29, 2020 &middot; Version 1.0.2: fixed automatic updates \
 May 24, 2020 &middot; Version 1.0.1: shortened name \
 May 16, 2020 &middot; Version 1: repository tidied \
