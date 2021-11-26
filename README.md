@@ -1,6 +1,16 @@
+<<<<<<< HEAD
 # Standard Notes Uniform Dark+ Theme
 
 ![Alt](./images/logo.png "Uniform Dark+ Theme")
+||||||| 88bdebf
+# Archived project! Repository and other project resources are read-only
+
+Note: GitHub repository is mirrored from GitLab. To submit pull requests or report any issues, go to [https://gitlab.com/dark-themes/uniform-dark-theme-sn](https://gitlab.com/dark-themes/uniform-dark-theme-sn "Click here to access the repository.").
+
+![Alt](./Images/logo.png "Uniform Dark+ Theme")
+=======
+![Alt](./Images/logo.png "Uniform Dark+ Theme")
+>>>>>>> 68f3848bbdbe9ad8908575bf2db4b67211d91435
 
 ## Uniform Dark+ Theme
 
