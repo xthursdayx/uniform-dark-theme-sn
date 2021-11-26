@@ -1,8 +1,6 @@
-# Archived project! Repository and other project resources are read-only
+# Standard Notes Uniform Dark+ Theme
 
-Note: GitHub repository is mirrored from GitLab. To submit pull requests or report any issues, go to [https://gitlab.com/dark-themes/uniform-dark-theme-sn](https://gitlab.com/dark-themes/uniform-dark-theme-sn "Click here to access the repository.").
-
-![Alt](./Images/logo.png "Uniform Dark+ Theme")
+![Alt](./images/logo.png "Uniform Dark+ Theme")
 
 ## Uniform Dark+ Theme
 
@@ -10,7 +8,7 @@ Theme inspired by Visual Studio Code's default dark theme, designed for Standard
 
 ## Preview
 
-![Alt](./Images/preview.png "Preview of Uniform Dark+ Theme")
+![Alt](./images/preview.png "Preview of Uniform Dark+ Theme")
 
 I enjoy VS Code's default dark theme, however for me it appeared too *boxy*. Also, I preferred a cleaner look.
 
@@ -20,9 +18,14 @@ Included in the theme, though&#8212;as depicted in the preview image, is my favo
 
 Also depicted in the preview image is the fact that the theme is designed to work with the Markdown Pro editor. The editor is not included in the theme, and it requires a separate purchase (see [Standard Notes Extended](https://standardnotes.org/extensions "Click here for more information.")). The theme will work with the Plain Editor, too, but it will appear much more primitive. 
 
-## How to Install
+## How to install:
 
-Import and install https://listed.to/p/shF0UFQe2O as an extension. Then, Activate the theme.
+- Open the Extensions manager on the Desktop or [Web client](https://app.standardnotes.org), located in the bottom left corner.
+- Click `Import Extension`
+- Paste in: <https://raw.githubusercontent.com/xthursdayx/uniform-dark-theme-sn/master/ext.json>
+- Hit Enter/Return
+
+![screenshot](https://github.com/xthursdayx/uniform-dark-theme-sn/raw/master/images/preview.png)
 
 **Do NOT activate the theme in Standard Notes Mobile, though! Not yet! The theme currently crashes Standard Notes Android, and it may crash the iOS client.**
 
@@ -36,7 +39,7 @@ Also, download and install [Git](https://git-scm.com/downloads "Click here to ac
 
 Open a terminal, and clone the project:
 ```
-git clone https://gitlab.com/dark-themes/uniform-dark-theme-sn.git
+git clone https://github.com/xthursdayx/uniform-dark-theme-sn.git
 ```
 
 (Recommended) Verify the project's authenticity: Look upward for "Verified," next to the commit SHA.
@@ -51,7 +54,6 @@ Check that the hash matches the commit SHA.
 ### Standard Notes Desktop
 
 Open a terminal, and populate a remote empty public GitHub repository: \
-(Up to Standard Notes 3.3.5, an empty GitLab repository had worked. 'No longer.)
 ```
 cd uniform-dark-theme-sn
 git remote rename origin old-origin
